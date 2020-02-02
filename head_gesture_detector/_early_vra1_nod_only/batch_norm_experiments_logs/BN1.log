@@ -1,0 +1,193 @@
+BN1
+
+WARNING:tensorflow:From /home/ICT2000/jondras/anaconda3/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From /home/ICT2000/jondras/anaconda3/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+masking_1 (Masking)          (None, 32, 12)            0         
+_________________________________________________________________
+batch_normalization_1 (Batch (None, 32, 12)            48        
+_________________________________________________________________
+gru_1 (GRU)                  (None, 32, 32)            4320      
+_________________________________________________________________
+batch_normalization_2 (Batch (None, 32, 32)            128       
+_________________________________________________________________
+gru_2 (GRU)                  (None, 32, 32)            6240      
+_________________________________________________________________
+time_distributed_1 (TimeDist (None, 32, 1)             33        
+=================================================================
+Total params: 10,769
+Trainable params: 10,681
+Non-trainable params: 88
+_________________________________________________________________
+None
+INFO:
+	0fold_BN1_32-32u_32ws_12f
+	 batch_size=128
+	 n_epochs=100
+WARNING:tensorflow:From /home/ICT2000/jondras/anaconda3/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+Train on 159911 samples, validate on 28192 samples
+Epoch 1/100
+159911/159911 [==============================] - 128s 799us/step - loss: 0.2199 - val_loss: 0.2170
+[last] - val_bacc: 0.8115 - val_f1: 0.6601 - val_precision: 0.6481 - val_recall: 0.6725 
+[majority] - val_bacc: 0.8054 - val_f1: 0.6841 - val_precision: 0.7310 - val_recall: 0.6428 
+
+Epoch 00001: val_loss improved from inf to 0.21701, saving model to ./checkpoints/0fold_BN1_32-32u_32ws_12f/m_0001_0.2199_0.2170.hdf5
+Epoch 2/100
+159911/159911 [==============================] - 127s 795us/step - loss: 0.1855 - val_loss: 0.2106
+[last] - val_bacc: 0.7854 - val_f1: 0.6659 - val_precision: 0.7518 - val_recall: 0.5976 
+[majority] - val_bacc: 0.7814 - val_f1: 0.6679 - val_precision: 0.7774 - val_recall: 0.5854 
+
+Epoch 00002: val_loss improved from 0.21701 to 0.21061, saving model to ./checkpoints/0fold_BN1_32-32u_32ws_12f/m_0002_0.1855_0.2106.hdf5
+Epoch 3/100
+159911/159911 [==============================] - 128s 803us/step - loss: 0.1750 - val_loss: 0.2064
+[last] - val_bacc: 0.8335 - val_f1: 0.6922 - val_precision: 0.6713 - val_recall: 0.7144 
+[majority] - val_bacc: 0.8228 - val_f1: 0.7035 - val_precision: 0.7287 - val_recall: 0.6799 
+
+Epoch 00003: val_loss improved from 0.21061 to 0.20639, saving model to ./checkpoints/0fold_BN1_32-32u_32ws_12f/m_0003_0.1750_0.2064.hdf5
+Epoch 4/100
+159911/159911 [==============================] - 129s 806us/step - loss: 0.1666 - val_loss: 0.2118
+[last] - val_bacc: 0.8005 - val_f1: 0.6777 - val_precision: 0.7296 - val_recall: 0.6327 
+[majority] - val_bacc: 0.7969 - val_f1: 0.6797 - val_precision: 0.7491 - val_recall: 0.6220 
+
+Epoch 00004: val_loss did not improve from 0.20639
+Epoch 5/100
+159911/159911 [==============================] - 127s 792us/step - loss: 0.1602 - val_loss: 0.2097
+[last] - val_bacc: 0.8289 - val_f1: 0.6879 - val_precision: 0.6721 - val_recall: 0.7043 
+[majority] - val_bacc: 0.8162 - val_f1: 0.6940 - val_precision: 0.7234 - val_recall: 0.6669 
+
+Epoch 00005: val_loss did not improve from 0.20639
+Epoch 6/100
+159911/159911 [==============================] - 126s 790us/step - loss: 0.1545 - val_loss: 0.2140
+[last] - val_bacc: 0.7788 - val_f1: 0.6593 - val_precision: 0.7589 - val_recall: 0.5828 
+[majority] - val_bacc: 0.7786 - val_f1: 0.6646 - val_precision: 0.7791 - val_recall: 0.5795 
+
+Epoch 00006: val_loss did not improve from 0.20639
+Epoch 7/100
+159911/159911 [==============================] - 126s 790us/step - loss: 0.1502 - val_loss: 0.2130
+[last] - val_bacc: 0.8198 - val_f1: 0.6895 - val_precision: 0.7003 - val_recall: 0.6790 
+[majority] - val_bacc: 0.8115 - val_f1: 0.6911 - val_precision: 0.7303 - val_recall: 0.6559 
+
+Epoch 00007: val_loss did not improve from 0.20639
+Epoch 8/100
+159911/159911 [==============================] - 128s 800us/step - loss: 0.1454 - val_loss: 0.2165
+[last] - val_bacc: 0.7871 - val_f1: 0.6680 - val_precision: 0.7515 - val_recall: 0.6012 
+[majority] - val_bacc: 0.7855 - val_f1: 0.6754 - val_precision: 0.7840 - val_recall: 0.5932 
+
+Epoch 00008: val_loss did not improve from 0.20639
+Epoch 9/100
+159911/159911 [==============================] - 126s 787us/step - loss: 0.1415 - val_loss: 0.2226
+[last] - val_bacc: 0.8029 - val_f1: 0.6783 - val_precision: 0.7229 - val_recall: 0.6389 
+[majority] - val_bacc: 0.7989 - val_f1: 0.6831 - val_precision: 0.7519 - val_recall: 0.6259 
+
+Epoch 00009: val_loss did not improve from 0.20639
+Epoch 10/100
+159911/159911 [==============================] - 127s 794us/step - loss: 0.1379 - val_loss: 0.2327
+[last] - val_bacc: 0.7729 - val_f1: 0.6435 - val_precision: 0.7314 - val_recall: 0.5744 
+[majority] - val_bacc: 0.7762 - val_f1: 0.6576 - val_precision: 0.7658 - val_recall: 0.5762 
+
+Epoch 00010: val_loss did not improve from 0.20639
+Epoch 11/100
+159911/159911 [==============================] - 128s 800us/step - loss: 0.1359 - val_loss: 0.2356
+[last] - val_bacc: 0.7926 - val_f1: 0.6580 - val_precision: 0.6991 - val_recall: 0.6214 
+[majority] - val_bacc: 0.7952 - val_f1: 0.6709 - val_precision: 0.7287 - val_recall: 0.6217 
+
+Epoch 00011: val_loss did not improve from 0.20639
+Epoch 12/100
+159911/159911 [==============================] - 127s 796us/step - loss: 0.1325 - val_loss: 0.2362
+[last] - val_bacc: 0.8076 - val_f1: 0.6738 - val_precision: 0.6948 - val_recall: 0.6541 
+[majority] - val_bacc: 0.8043 - val_f1: 0.6837 - val_precision: 0.7337 - val_recall: 0.6401 
+
+Epoch 00012: val_loss did not improve from 0.20639
+Epoch 13/100
+159911/159911 [==============================] - 128s 798us/step - loss: 0.1315 - val_loss: 0.2434
+[last] - val_bacc: 0.7427 - val_f1: 0.6104 - val_precision: 0.7688 - val_recall: 0.5061 
+[majority] - val_bacc: 0.7499 - val_f1: 0.6232 - val_precision: 0.7774 - val_recall: 0.5201 
+
+Epoch 00013: val_loss did not improve from 0.20639
+Epoch 00013: early stopping
+	Min train loss: 0.13153397914657328 @epoch 12
+	Min valid loss: 0.20639210906002362 @epoch 2
+
+<Figure size 1000x600 with 1 Axes>
+
+INFO:
+	1fold_BN1_32-32u_32ws_12f
+	 batch_size=128
+	 n_epochs=100
+Train on 160597 samples, validate on 28313 samples
+Epoch 1/100
+160597/160597 [==============================] - 127s 794us/step - loss: 0.2185 - val_loss: 0.1908
+[last] - val_bacc: 0.7407 - val_f1: 0.6044 - val_precision: 0.7648 - val_recall: 0.4997 
+[majority] - val_bacc: 0.7492 - val_f1: 0.6230 - val_precision: 0.7893 - val_recall: 0.5146 
+
+Epoch 00001: val_loss improved from inf to 0.19080, saving model to ./checkpoints/1fold_BN1_32-32u_32ws_12f/m_0001_0.2185_0.1908.hdf5
+Epoch 2/100
+160597/160597 [==============================] - 127s 794us/step - loss: 0.1831 - val_loss: 0.1864
+[last] - val_bacc: 0.7818 - val_f1: 0.6478 - val_precision: 0.7161 - val_recall: 0.5915 
+[majority] - val_bacc: 0.7845 - val_f1: 0.6556 - val_precision: 0.7296 - val_recall: 0.5951 
+
+Epoch 00002: val_loss improved from 0.19080 to 0.18639, saving model to ./checkpoints/1fold_BN1_32-32u_32ws_12f/m_0002_0.1831_0.1864.hdf5
+Epoch 3/100
+160597/160597 [==============================] - 127s 791us/step - loss: 0.1728 - val_loss: 0.1872
+[last] - val_bacc: 0.7772 - val_f1: 0.6341 - val_precision: 0.6916 - val_recall: 0.5855 
+[majority] - val_bacc: 0.7840 - val_f1: 0.6558 - val_precision: 0.7322 - val_recall: 0.5938 
+
+Epoch 00003: val_loss did not improve from 0.18639
+Epoch 4/100
+160597/160597 [==============================] - 129s 801us/step - loss: 0.1641 - val_loss: 0.1905
+[last] - val_bacc: 0.7700 - val_f1: 0.6215 - val_precision: 0.6805 - val_recall: 0.5719 
+[majority] - val_bacc: 0.7747 - val_f1: 0.6405 - val_precision: 0.7216 - val_recall: 0.5758 
+
+Epoch 00004: val_loss did not improve from 0.18639
+Epoch 5/100
+160597/160597 [==============================] - 129s 805us/step - loss: 0.1581 - val_loss: 0.1899
+[last] - val_bacc: 0.7500 - val_f1: 0.6153 - val_precision: 0.7526 - val_recall: 0.5203 
+[majority] - val_bacc: 0.7581 - val_f1: 0.6316 - val_precision: 0.7702 - val_recall: 0.5353 
+
+Epoch 00005: val_loss did not improve from 0.18639
+Epoch 6/100
+160597/160597 [==============================] - 126s 786us/step - loss: 0.1517 - val_loss: 0.1869
+[last] - val_bacc: 0.8088 - val_f1: 0.6677 - val_precision: 0.6823 - val_recall: 0.6537 
+[majority] - val_bacc: 0.8079 - val_f1: 0.6751 - val_precision: 0.7045 - val_recall: 0.6480 
+
+Epoch 00006: val_loss did not improve from 0.18639
+Epoch 7/100
+160597/160597 [==============================] - 127s 793us/step - loss: 0.1473 - val_loss: 0.1972
+[last] - val_bacc: 0.7981 - val_f1: 0.6519 - val_precision: 0.6723 - val_recall: 0.6327 
+[majority] - val_bacc: 0.7938 - val_f1: 0.6581 - val_precision: 0.7027 - val_recall: 0.6188 
+
+Epoch 00007: val_loss did not improve from 0.18639
+Epoch 8/100
+160597/160597 [==============================] - 127s 792us/step - loss: 0.1430 - val_loss: 0.1961
+[last] - val_bacc: 0.8016 - val_f1: 0.6521 - val_precision: 0.6625 - val_recall: 0.6420 
+[majority] - val_bacc: 0.8050 - val_f1: 0.6725 - val_precision: 0.7063 - val_recall: 0.6417 
+
+Epoch 00008: val_loss did not improve from 0.18639
+Epoch 9/100
+160597/160597 [==============================] - 128s 796us/step - loss: 0.1383 - val_loss: 0.1995
+[last] - val_bacc: 0.8004 - val_f1: 0.6379 - val_precision: 0.6302 - val_recall: 0.6457 
+[majority] - val_bacc: 0.7968 - val_f1: 0.6520 - val_precision: 0.6762 - val_recall: 0.6294 
+
+Epoch 00009: val_loss did not improve from 0.18639
+Epoch 10/100
+160597/160597 [==============================] - 128s 798us/step - loss: 0.1360 - val_loss: 0.1999
+[last] - val_bacc: 0.8071 - val_f1: 0.6656 - val_precision: 0.6817 - val_recall: 0.6504 
+[majority] - val_bacc: 0.8023 - val_f1: 0.6662 - val_precision: 0.6977 - val_recall: 0.6374 
+
+Epoch 00010: val_loss did not improve from 0.18639
+Epoch 11/100
+160597/160597 [==============================] - 127s 793us/step - loss: 0.1326 - val_loss: 0.2043
+[last] - val_bacc: 0.7604 - val_f1: 0.6071 - val_precision: 0.6736 - val_recall: 0.5526 
+[majority] - val_bacc: 0.7646 - val_f1: 0.6293 - val_precision: 0.7292 - val_recall: 0.5536 
+
+Epoch 00011: val_loss did not improve from 0.18639
+Epoch 12/100
+ 41856/160597 [======>.......................] - ETA: 1:29 - loss: 0.1308

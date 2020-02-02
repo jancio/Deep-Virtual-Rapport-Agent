@@ -1,0 +1,51 @@
+#By Leili Tavabi - Feb 2019
+
+
+Getting started: 
+
+https://cloud.google.com/speech-to-text/docs/quickstart-client-libraries#client-libraries-usage-python
+https://cloud.google.com/speech-to-text/docs/async-recognize
+https://cloud.google.com/speech-to-text/docs/multiple-voices
+https://console.cloud.google.com/storage
+https://console.cloud.google.com/iam-admin
+
+
+
+
+
+Storage: 
+https://console.cloud.google.com/storage/browser?project=dcaps-231819&folder&organizationId
+
+
+* For large audio files, you need to store them on google cloud bucket
+
+* You need to do some audio preprocessing before sending it to the service, including converting to mono channel, lossless embedding, sampling rate of 16000. 
+This can be done using ** sox ** 
+
+sox -G input.wav --channels 1  --rate 16000 output.flac
+
+https://cloud.google.com/speech-to-text/docs/quickstart-client-libraries
+
+Here are some good resources: 
+
+
+http://christophebuffet.com/blog/using-google-speech-api-transcribe-interviews/
+
+https://cloud.google.com/speech-to-text/docs/best-practices
+
+https://cloud.google.com/speech-to-text/docs/reference/rpc/google.cloud.speech.v1#recognitionconfig
+
+
+To make the bucket public: 
+
+add 'allUsers' with Role 'Storage Object Viewer', to make private remove allUsers
+
+To export account info: 
+export GOOGLE_APPLICATION_CREDENTIALS="*.json"
+
+This took a hell of lot time to solve: 
+
+To keep your bucket private while being able to access it, go to service accounts; 
+In your specific service account, add the following roles: 
+Storage Admin; 
+Storage Object Admin; 

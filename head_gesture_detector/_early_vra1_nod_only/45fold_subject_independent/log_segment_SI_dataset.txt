@@ -1,0 +1,4357 @@
+Selected features: 
+	['diff_ pose_Tx', 'diff_ pose_Ty', 'diff_ pose_Tz', 'diff_ pose_Rx', 'diff_ pose_Ry', 'diff_ pose_Rz']
+X_train (154430, 16, 6)
+X_val (27224, 16, 6)
+Y_train (154430, 16, 1)
+Y_val (27224, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3099, 16, 6)
+Y_test (3099, 16, 1)
+test_len (1,)
+	 FOLD 0
+		 train:val:test = 154430:27224:3099 = 0.8358727598469308:0.14735349358332475:0.01677374656974447
+		 Number of train examples per class: 	(array([0., 1.]), array([134580,  19850]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23695,  3529]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3074,   25]))
+		 Total time taken: 27.22671151161194 s
+====================================================================================================
+X_train (154988, 16, 6)
+X_val (27322, 16, 6)
+Y_train (154988, 16, 1)
+Y_val (27322, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2443, 16, 6)
+Y_test (2443, 16, 1)
+test_len (1,)
+	 FOLD 1
+		 train:val:test = 154988:27322:2443 = 0.8388930085032449:0.14788393151937992:0.013223059977375199
+		 Number of train examples per class: 	(array([0., 1.]), array([136134,  18854]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23471,  3851]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1744,  699]))
+		 Total time taken: 54.29198122024536 s
+====================================================================================================
+X_train (153589, 16, 6)
+X_val (27075, 16, 6)
+Y_train (153589, 16, 1)
+Y_val (27075, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4089, 16, 6)
+Y_test (4089, 16, 1)
+test_len (1,)
+	 FOLD 2
+		 train:val:test = 153589:27075:4089 = 0.8313207363344574:0.1465470114152409:0.022132252250301753
+		 Number of train examples per class: 	(array([0., 1.]), array([134202,  19387]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23369,  3706]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3778,  311]))
+		 Total time taken: 79.9100341796875 s
+====================================================================================================
+X_train (153487, 16, 6)
+X_val (27057, 16, 6)
+Y_train (153487, 16, 1)
+Y_val (27057, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4209, 16, 6)
+Y_test (4209, 16, 1)
+test_len (1,)
+	 FOLD 3
+		 train:val:test = 153487:27057:4209 = 0.8307686478704:0.14644958403923075:0.022781768090369303
+		 Number of train examples per class: 	(array([0., 1.]), array([133973,  19514]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23267,  3790]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4109,  100]))
+		 Total time taken: 105.95471262931824 s
+====================================================================================================
+X_train (152445, 16, 6)
+X_val (26873, 16, 6)
+Y_train (152445, 16, 1)
+Y_val (26873, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5435, 16, 6)
+Y_test (5435, 16, 1)
+test_len (1,)
+	 FOLD 4
+		 train:val:test = 152445:26873:5435 = 0.8251286853258134:0.14545365975112717:0.029417654923059436
+		 Number of train examples per class: 	(array([0., 1.]), array([134538,  17907]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23139,  3734]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3672, 1763]))
+		 Total time taken: 133.14088773727417 s
+====================================================================================================
+X_train (152020, 16, 6)
+X_val (26798, 16, 6)
+Y_train (152020, 16, 1)
+Y_val (26798, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5935, 16, 6)
+Y_test (5935, 16, 1)
+test_len (1,)
+	 FOLD 5
+		 train:val:test = 152020:26798:5935 = 0.8228283167255741:0.14504771235108496:0.03212397092334089
+		 Number of train examples per class: 	(array([0., 1.]), array([133024,  18996]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23279,  3519]))
+		 Number of test examples per class: 	(array([0., 1.]), array([5046,  889]))
+		 Total time taken: 159.62086868286133 s
+====================================================================================================
+X_train (155271, 16, 6)
+X_val (27372, 16, 6)
+Y_train (155271, 16, 1)
+Y_val (27372, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2110, 16, 6)
+Y_test (2110, 16, 1)
+test_len (1,)
+	 FOLD 6
+		 train:val:test = 155271:27372:2110 = 0.8404247833594042:0.14815456311940808:0.011420653521187749
+		 Number of train examples per class: 	(array([0., 1.]), array([135056,  20215]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24183,  3189]))
+		 Number of test examples per class: 	(array([0.]), array([2110]))
+		 Total time taken: 184.730539560318 s
+====================================================================================================
+X_train (152282, 16, 6)
+X_val (26845, 16, 6)
+Y_train (152282, 16, 1)
+Y_val (26845, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5626, 16, 6)
+Y_test (5626, 16, 1)
+test_len (1,)
+	 FOLD 7
+		 train:val:test = 152282:26845:5626 = 0.8242464263097217:0.14530210605511143:0.030451467635166953
+		 Number of train examples per class: 	(array([0., 1.]), array([132217,  20065]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23506,  3339]))
+		 Number of test examples per class: 	(array([0.]), array([5626]))
+		 Total time taken: 210.86021518707275 s
+====================================================================================================
+X_train (152563, 16, 6)
+X_val (26894, 16, 6)
+Y_train (152563, 16, 1)
+Y_val (26894, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5296, 16, 6)
+Y_test (5296, 16, 1)
+test_len (1,)
+	 FOLD 8
+		 train:val:test = 152563:26894:5296 = 0.8257673759018798:0.145567325023139:0.02866529907498119
+		 Number of train examples per class: 	(array([0., 1.]), array([133285,  19278]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22768,  4126]))
+		 Number of test examples per class: 	(array([0.]), array([5296]))
+		 Total time taken: 237.73669242858887 s
+====================================================================================================
+X_train (152106, 16, 6)
+X_val (26814, 16, 6)
+Y_train (152106, 16, 1)
+Y_val (26814, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5833, 16, 6)
+Y_test (5833, 16, 1)
+test_len (1,)
+	 FOLD 9
+		 train:val:test = 152106:26814:5833 = 0.8232938030776226:0.14513431446309397:0.031571882459283475
+		 Number of train examples per class: 	(array([0., 1.]), array([132986,  19120]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23472,  3342]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4891,  942]))
+		 Total time taken: 265.95397567749023 s
+====================================================================================================
+X_train (153947, 16, 6)
+X_val (27138, 16, 6)
+Y_train (153947, 16, 1)
+Y_val (27138, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3668, 16, 6)
+Y_test (3668, 16, 1)
+test_len (1,)
+	 FOLD 10
+		 train:val:test = 153947:27138:3668 = 0.8332584585906588:0.14688800723127635:0.019853534178064767
+		 Number of train examples per class: 	(array([0., 1.]), array([134814,  19133]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24103,  3035]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2432, 1236]))
+		 Total time taken: 290.70693373680115 s
+====================================================================================================
+X_train (154539, 16, 6)
+X_val (27243, 16, 6)
+Y_train (154539, 16, 1)
+Y_val (27243, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2971, 16, 6)
+Y_test (2971, 16, 1)
+test_len (1,)
+	 FOLD 11
+		 train:val:test = 154539:27243:2971 = 0.8364627367349922:0.14745633359133545:0.016080929673672417
+		 Number of train examples per class: 	(array([0., 1.]), array([135357,  19182]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23828,  3415]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2164,  807]))
+		 Total time taken: 317.75148916244507 s
+====================================================================================================
+X_train (155225, 16, 6)
+X_val (27364, 16, 6)
+Y_train (155225, 16, 1)
+Y_val (27364, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2164, 16, 6)
+Y_test (2164, 16, 1)
+test_len (1,)
+
+	 FOLD 12
+		 train:val:test = 155225:27364:2164 = 0.8401758022873783:0.14811126206340358:0.011712935649218145
+		 Number of train examples per class: 	(array([0., 1.]), array([135834,  19391]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23376,  3988]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2139,   25]))
+		 Total time taken: 344.25862979888916 s
+====================================================================================================
+X_train (152656, 16, 6)
+X_val (26911, 16, 6)
+Y_train (152656, 16, 1)
+Y_val (26911, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5186, 16, 6)
+Y_test (5186, 16, 1)
+test_len (1,)
+	 FOLD 13
+		 train:val:test = 152656:26911:5186 = 0.8262707506779322:0.14565933976714857:0.02806990955491927
+		 Number of train examples per class: 	(array([0., 1.]), array([132605,  20051]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23558,  3353]))
+		 Number of test examples per class: 	(array([0.]), array([5186]))
+		 Total time taken: 372.59989738464355 s
+====================================================================================================
+X_train (154709, 16, 6)
+X_val (27273, 16, 6)
+Y_train (154709, 16, 1)
+Y_val (27273, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2771, 16, 6)
+Y_test (2771, 16, 1)
+test_len (1,)
+	 FOLD 14
+		 train:val:test = 154709:27273:2771 = 0.8373828841750878:0.14761871255135234:0.014998403273559833
+		 Number of train examples per class: 	(array([0., 1.]), array([134132,  20577]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24470,  2803]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2747,   24]))
+		 Total time taken: 397.4979829788208 s
+====================================================================================================
+X_train (153730, 16, 6)
+X_val (27100, 16, 6)
+Y_train (153730, 16, 1)
+Y_val (27100, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3923, 16, 6)
+Y_test (3923, 16, 1)
+test_len (1,)
+	 FOLD 15
+		 train:val:test = 153730:27100:3923 = 0.8320839174465368:0.14668232721525495:0.021233755338208312
+		 Number of train examples per class: 	(array([0., 1.]), array([134090,  19640]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23782,  3318]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3477,  446]))
+		 Total time taken: 424.0566236972809 s
+====================================================================================================
+X_train (153768, 16, 6)
+X_val (27107, 16, 6)
+Y_train (153768, 16, 1)
+Y_val (27107, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3878, 16, 6)
+Y_test (3878, 16, 1)
+test_len (1,)
+	 FOLD 16
+		 train:val:test = 153768:27107:3878 = 0.8322895974625582:0.1467202156392589:0.02099018689818298
+		 Number of train examples per class: 	(array([0., 1.]), array([134514,  19254]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23407,  3700]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3428,  450]))
+		 Total time taken: 450.53640580177307 s
+====================================================================================================
+X_train (150553, 16, 6)
+X_val (26539, 16, 6)
+Y_train (150553, 16, 1)
+Y_val (26539, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (7661, 16, 6)
+Y_test (7661, 16, 1)
+test_len (1,)
+	 FOLD 17
+		 train:val:test = 150553:26539:7661 = 0.8148879855807484:0.14364584066293917:0.04146617375631248
+		 Number of train examples per class: 	(array([0., 1.]), array([130750,  19803]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23237,  3302]))
+		 Number of test examples per class: 	(array([0., 1.]), array([7362,  299]))
+		 Total time taken: 478.2223057746887 s
+====================================================================================================
+X_train (153251, 16, 6)
+X_val (27015, 16, 6)
+Y_train (153251, 16, 1)
+Y_val (27015, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4487, 16, 6)
+Y_test (4487, 16, 1)
+test_len (1,)
+	 FOLD 18
+		 train:val:test = 153251:27015:4487 = 0.8294912667182671:0.14622225349520712:0.024286479786525796
+		 Number of train examples per class: 	(array([0., 1.]), array([133872,  19379]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22990,  4025]))
+		 Number of test examples per class: 	(array([0.]), array([4487]))
+		 Total time taken: 503.7674958705902 s
+====================================================================================================
+X_train (153636, 16, 6)
+X_val (27084, 16, 6)
+Y_train (153636, 16, 1)
+Y_val (27084, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4033, 16, 6)
+Y_test (4033, 16, 1)
+test_len (1,)
+	 FOLD 19
+		 train:val:test = 153636:27084:4033 = 0.8315751300384838:0.14659572510324595:0.02182914485827023
+		 Number of train examples per class: 	(array([0., 1.]), array([133667,  19969]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24056,  3028]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3626,  407]))
+		 Total time taken: 529.9981486797333 s
+====================================================================================================
+X_train (151520, 16, 6)
+X_val (26710, 16, 6)
+Y_train (151520, 16, 1)
+Y_val (26710, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (6523, 16, 6)
+Y_test (6523, 16, 1)
+test_len (1,)
+	 FOLD 20
+		 train:val:test = 151520:26710:6523 = 0.8201220007252927:0.14457140073503544:0.035306598539671885
+		 Number of train examples per class: 	(array([0., 1.]), array([131975,  19545]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23375,  3335]))
+		 Number of test examples per class: 	(array([0., 1.]), array([5999,  524]))
+		 Total time taken: 557.7918701171875 s
+====================================================================================================
+X_train (153461, 16, 6)
+X_val (27053, 16, 6)
+Y_train (153461, 16, 1)
+Y_val (27053, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4239, 16, 6)
+Y_test (4239, 16, 1)
+test_len (1,)
+	 FOLD 21
+		 train:val:test = 153461:27053:4239 = 0.8306279194383853:0.14642793351122851:0.02294414705038619
+		 Number of train examples per class: 	(array([0., 1.]), array([133857,  19604]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23819,  3234]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3673,  566]))
+		 Total time taken: 583.6945033073425 s
+====================================================================================================
+X_train (153645, 16, 6)
+X_val (27085, 16, 6)
+Y_train (153645, 16, 1)
+Y_val (27085, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4023, 16, 6)
+Y_test (4023, 16, 1)
+test_len (1,)
+	 FOLD 22
+		 train:val:test = 153645:27085:4023 = 0.8316238437264889:0.14660113773524652:0.021775018538264603
+		 Number of train examples per class: 	(array([0., 1.]), array([135137,  18508]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22997,  4088]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3215,  808]))
+		 Total time taken: 611.0596582889557 s
+====================================================================================================
+X_train (155314, 16, 6)
+X_val (27379, 16, 6)
+Y_train (155314, 16, 1)
+Y_val (27379, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2060, 16, 6)
+Y_test (2060, 16, 1)
+test_len (1,)
+	 FOLD 23
+		 train:val:test = 155314:27379:2060 = 0.8406575265354284:0.148192451543412:0.011150021921159603
+		 Number of train examples per class: 	(array([0., 1.]), array([136799,  18515]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23721,  3658]))
+		 Number of test examples per class: 	(array([0., 1.]), array([ 829, 1231]))
+		 Total time taken: 636.6331944465637 s
+====================================================================================================
+X_train (154555, 16, 6)
+X_val (27246, 16, 6)
+Y_train (154555, 16, 1)
+Y_val (27246, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2952, 16, 6)
+Y_test (2952, 16, 1)
+test_len (1,)
+	 FOLD 24
+		 train:val:test = 154555:27246:2952 = 0.8365493388470011:0.14747257148733714:0.01597808966566172
+		 Number of train examples per class: 	(array([0., 1.]), array([136299,  18256]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23324,  3922]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1726, 1226]))
+		 Total time taken: 664.6205801963806 s
+====================================================================================================
+
+X_train (154437, 16, 6)
+X_val (27225, 16, 6)
+Y_train (154437, 16, 1)
+Y_val (27225, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3091, 16, 6)
+Y_test (3091, 16, 1)
+test_len (1,)
+	 FOLD 25
+		 train:val:test = 154437:27225:3091 = 0.8359106482709348:0.14735890621532532:0.016730445513739967
+		 Number of train examples per class: 	(array([0., 1.]), array([136027,  18410]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23866,  3359]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1456, 1635]))
+		 Total time taken: 690.7060649394989 s
+====================================================================================================
+X_train (155030, 16, 6)
+X_val (27330, 16, 6)
+Y_train (155030, 16, 1)
+Y_val (27330, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2393, 16, 6)
+Y_test (2393, 16, 1)
+test_len (1,)
+	 FOLD 26
+		 train:val:test = 155030:27330:2393 = 0.8391203390472685:0.14792723257538443:0.012952428377347053
+		 Number of train examples per class: 	(array([0., 1.]), array([135684,  19346]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23676,  3654]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1989,  404]))
+		 Total time taken: 717.9396817684174 s
+====================================================================================================
+X_train (155055, 16, 6)
+X_val (27334, 16, 6)
+Y_train (155055, 16, 1)
+Y_val (27334, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2364, 16, 6)
+Y_test (2364, 16, 1)
+test_len (1,)
+	 FOLD 27
+		 train:val:test = 155055:27334:2364 = 0.8392556548472826:0.1479488831033867:0.012795462049330728
+		 Number of train examples per class: 	(array([0., 1.]), array([135518,  19537]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24781,  2553]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1050, 1314]))
+		 Total time taken: 743.7963840961456 s
+====================================================================================================
+X_train (153936, 16, 6)
+X_val (27136, 16, 6)
+Y_train (153936, 16, 1)
+Y_val (27136, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3681, 16, 6)
+Y_test (3681, 16, 1)
+test_len (1,)
+	 FOLD 28
+		 train:val:test = 153936:27136:3681 = 0.8331989196386527:0.14687718196727523:0.019923898394072086
+		 Number of train examples per class: 	(array([0., 1.]), array([135409,  18527]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23192,  3944]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2748,  933]))
+		 Total time taken: 771.4357147216797 s
+====================================================================================================
+X_train (150934, 16, 6)
+X_val (26607, 16, 6)
+Y_train (150934, 16, 1)
+Y_val (26607, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (7212, 16, 6)
+Y_test (7212, 16, 1)
+test_len (1,)
+	 FOLD 29
+		 train:val:test = 150934:26607:7212 = 0.8169501983729628:0.14401389963897746:0.039035901988059736
+		 Number of train examples per class: 	(array([0., 1.]), array([131321,  19613]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22834,  3773]))
+		 Number of test examples per class: 	(array([0., 1.]), array([7194,   18]))
+		 Total time taken: 796.9265222549438 s
+====================================================================================================
+X_train (154961, 16, 6)
+X_val (27317, 16, 6)
+Y_train (154961, 16, 1)
+Y_val (27317, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2475, 16, 6)
+Y_test (2475, 16, 1)
+test_len (1,)
+	 FOLD 30
+		 train:val:test = 154961:27317:2475 = 0.8387468674392297:0.1478568683593771:0.013396264201393211
+		 Number of train examples per class: 	(array([0., 1.]), array([134662,  20299]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24304,  3013]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2383,   92]))
+		 Total time taken: 825.2143578529358 s
+====================================================================================================
+X_train (153707, 16, 6)
+X_val (27096, 16, 6)
+Y_train (153707, 16, 1)
+Y_val (27096, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3950, 16, 6)
+Y_test (3950, 16, 1)
+test_len (1,)
+	 FOLD 31
+		 train:val:test = 153707:27096:3950 = 0.8319594269105238:0.14666067668725272:0.02137989640222351
+		 Number of train examples per class: 	(array([0., 1.]), array([133261,  20446]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24265,  2831]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3823,  127]))
+		 Total time taken: 850.8579759597778 s
+====================================================================================================
+X_train (153382, 16, 6)
+X_val (27039, 16, 6)
+Y_train (153382, 16, 1)
+Y_val (27039, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4332, 16, 6)
+Y_test (4332, 16, 1)
+test_len (1,)
+	 FOLD 32
+		 train:val:test = 153382:27039:4332 = 0.8302003215103408:0.14635215666322063:0.02344752182643854
+		 Number of train examples per class: 	(array([0., 1.]), array([134502,  18880]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22840,  4199]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4007,  325]))
+		 Total time taken: 878.1695919036865 s
+====================================================================================================
+X_train (153682, 16, 6)
+X_val (27091, 16, 6)
+Y_train (153682, 16, 1)
+Y_val (27091, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3980, 16, 6)
+Y_test (3980, 16, 1)
+test_len (1,)
+	 FOLD 33
+		 train:val:test = 153682:27091:3980 = 0.8318241111105097:0.1466336135272499:0.021542275362240397
+		 Number of train examples per class: 	(array([0., 1.]), array([135508,  18174]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23160,  3931]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2681, 1299]))
+		 Total time taken: 903.7728669643402 s
+====================================================================================================
+X_train (152435, 16, 6)
+X_val (26872, 16, 6)
+Y_train (152435, 16, 1)
+Y_val (26872, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5446, 16, 6)
+Y_test (5446, 16, 1)
+test_len (1,)
+	 FOLD 34
+		 train:val:test = 152435:26872:5446 = 0.8250745590058077:0.14544824711912663:0.02947719387506563
+		 Number of train examples per class: 	(array([0., 1.]), array([132898,  19537]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23005,  3867]))
+		 Number of test examples per class: 	(array([0.]), array([5446]))
+		 Total time taken: 931.8301899433136 s
+====================================================================================================
+X_train (154896, 16, 6)
+X_val (27306, 16, 6)
+Y_train (154896, 16, 1)
+Y_val (27306, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2551, 16, 6)
+Y_test (2551, 16, 1)
+test_len (1,)
+	 FOLD 35
+		 train:val:test = 154896:27306:2551 = 0.838395046359193:0.14779732940737092:0.013807624233435994
+		 Number of train examples per class: 	(array([0., 1.]), array([134865,  20031]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23933,  3373]))
+		 Number of test examples per class: 	(array([0.]), array([2551]))
+		 Total time taken: 957.5333442687988 s
+====================================================================================================
+X_train (153398, 16, 6)
+X_val (27041, 16, 6)
+Y_train (153398, 16, 1)
+Y_val (27041, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4314, 16, 6)
+Y_test (4314, 16, 1)
+test_len (1,)
+	 FOLD 36
+		 train:val:test = 153398:27041:4314 = 0.8302869236223498:0.14636298192722175:0.023350094450428408
+		 Number of train examples per class: 	(array([0., 1.]), array([132838,  20560]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24197,  2844]))
+		 Number of test examples per class: 	(array([0.]), array([4314]))
+		 Total time taken: 984.8677365779877 s
+====================================================================================================
+X_train (152706, 16, 6)
+X_val (26919, 16, 6)
+Y_train (152706, 16, 1)
+Y_val (26919, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5128, 16, 6)
+Y_test (5128, 16, 1)
+test_len (1,)
+	 FOLD 37
+		 train:val:test = 152706:26919:5128 = 0.8265413822779603:0.14570264082315307:0.027755976898886623
+		 Number of train examples per class: 	(array([0., 1.]), array([134846,  17860]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23282,  3637]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3221, 1907]))
+		 Total time taken: 1010.2650001049042 s
+====================================================================================================
+
+X_train (153292, 16, 6)
+X_val (27023, 16, 6)
+Y_train (153292, 16, 1)
+Y_val (27023, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4438, 16, 6)
+Y_test (4438, 16, 1)
+test_len (1,)
+	 FOLD 38
+		 train:val:test = 153292:27023:4438 = 0.8297131846302902:0.14626555455121162:0.024021260818498213
+		 Number of train examples per class: 	(array([0., 1.]), array([133347,  19945]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23564,  3459]))
+		 Number of test examples per class: 	(array([0.]), array([4438]))
+		 Total time taken: 1038.2657878398895 s
+====================================================================================================
+X_train (153483, 16, 6)
+X_val (27057, 16, 6)
+Y_train (153483, 16, 1)
+Y_val (27057, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4213, 16, 6)
+Y_test (4213, 16, 1)
+test_len (1,)
+	 FOLD 39
+		 train:val:test = 153483:27057:4213 = 0.8307469973423977:0.14644958403923075:0.022803418618371554
+		 Number of train examples per class: 	(array([0., 1.]), array([133353,  20130]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23783,  3274]))
+		 Number of test examples per class: 	(array([0.]), array([4213]))
+		 Total time taken: 1064.8813335895538 s
+====================================================================================================
+X_train (154022, 16, 6)
+X_val (27152, 16, 6)
+Y_train (154022, 16, 1)
+Y_val (27152, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3579, 16, 6)
+Y_test (3579, 16, 1)
+test_len (1,)
+	 FOLD 40
+		 train:val:test = 154022:27152:3579 = 0.8336644059907011:0.14696378407928423:0.01937180993001467
+		 Number of train examples per class: 	(array([0., 1.]), array([134028,  19994]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23742,  3410]))
+		 Number of test examples per class: 	(array([0.]), array([3579]))
+		 Total time taken: 1090.0300962924957 s
+====================================================================================================
+X_train (152637, 16, 6)
+X_val (26907, 16, 6)
+Y_train (152637, 16, 1)
+Y_val (26907, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5209, 16, 6)
+Y_test (5209, 16, 1)
+test_len (1,)
+	 FOLD 41
+		 train:val:test = 152637:26907:5209 = 0.8261679106699215:0.14563768923914633:0.028194400090932218
+		 Number of train examples per class: 	(array([0., 1.]), array([133065,  19572]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23803,  3104]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4481,  728]))
+		 Total time taken: 1117.071699142456 s
+====================================================================================================
+X_train (154170, 16, 6)
+X_val (27178, 16, 6)
+Y_train (154170, 16, 1)
+Y_val (27178, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3405, 16, 6)
+Y_test (3405, 16, 1)
+test_len (1,)
+	 FOLD 42
+		 train:val:test = 154170:27178:3405 = 0.8344654755267844:0.14710451251129886:0.018430011961916723
+		 Number of train examples per class: 	(array([0., 1.]), array([135209,  18961]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23892,  3286]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2248, 1157]))
+		 Total time taken: 1143.4605910778046 s
+====================================================================================================
+X_train (154306, 16, 6)
+X_val (27202, 16, 6)
+Y_train (154306, 16, 1)
+Y_val (27202, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3245, 16, 6)
+Y_test (3245, 16, 1)
+test_len (1,)
+	 FOLD 43
+		 train:val:test = 154306:27202:3245 = 0.8352015934788609:0.1472344156793124:0.017563990841826655
+		 Number of train examples per class: 	(array([0., 1.]), array([134153,  20153]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24396,  2806]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2800,  445]))
+		 Total time taken: 1171.0851702690125 s
+====================================================================================================
+X_train (152701, 16, 6)
+X_val (26919, 16, 6)
+Y_train (152701, 16, 1)
+Y_val (26919, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5133, 16, 6)
+Y_test (5133, 16, 1)
+test_len (1,)
+	 FOLD 44
+		 train:val:test = 152701:26919:5133 = 0.8265143191179575:0.14570264082315307:0.027783040058889437
+		 Number of train examples per class: 	(array([0., 1.]), array([132620,  20081]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23838,  3081]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4891,  242]))
+		 Total time taken: 1196.071969985962 s
+====================================================================================================
+Selected features: 
+	['diff_ pose_Tx', 'diff_ pose_Ty', 'diff_ pose_Tz', 'diff_ pose_Rx', 'diff_ pose_Ry', 'diff_ pose_Rz']
+X_train (154430, 32, 6)
+X_val (27224, 32, 6)
+Y_train (154430, 32, 1)
+Y_val (27224, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3099, 32, 6)
+Y_test (3099, 32, 1)
+test_len (1,)
+	 FOLD 0
+		 train:val:test = 154430:27224:3099 = 0.8358727598469308:0.14735349358332475:0.01677374656974447
+		 Number of train examples per class: 	(array([0., 1.]), array([135241,  19189]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23034,  4190]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3074,   25]))
+		 Total time taken: 27.862351894378662 s
+====================================================================================================
+X_train (154988, 32, 6)
+X_val (27322, 32, 6)
+Y_train (154988, 32, 1)
+Y_val (27322, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2443, 32, 6)
+Y_test (2443, 32, 1)
+test_len (1,)
+	 FOLD 1
+		 train:val:test = 154988:27322:2443 = 0.8388930085032449:0.14788393151937992:0.013223059977375199
+		 Number of train examples per class: 	(array([0., 1.]), array([135416,  19572]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24189,  3133]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1744,  699]))
+		 Total time taken: 55.04849720001221 s
+====================================================================================================
+X_train (153589, 32, 6)
+X_val (27075, 32, 6)
+Y_train (153589, 32, 1)
+Y_val (27075, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4089, 32, 6)
+Y_test (4089, 32, 1)
+test_len (1,)
+	 FOLD 2
+		 train:val:test = 153589:27075:4089 = 0.8313207363344574:0.1465470114152409:0.022132252250301753
+		 Number of train examples per class: 	(array([0., 1.]), array([134051,  19538]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23520,  3555]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3778,  311]))
+		 Total time taken: 82.67048764228821 s
+====================================================================================================
+X_train (153487, 32, 6)
+X_val (27057, 32, 6)
+Y_train (153487, 32, 1)
+Y_val (27057, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4209, 32, 6)
+Y_test (4209, 32, 1)
+test_len (1,)
+	 FOLD 3
+		 train:val:test = 153487:27057:4209 = 0.8307686478704:0.14644958403923075:0.022781768090369303
+		 Number of train examples per class: 	(array([0., 1.]), array([133929,  19558]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23311,  3746]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4109,  100]))
+		 Total time taken: 107.36647391319275 s
+====================================================================================================
+X_train (152445, 32, 6)
+X_val (26873, 32, 6)
+Y_train (152445, 32, 1)
+Y_val (26873, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5435, 32, 6)
+Y_test (5435, 32, 1)
+test_len (1,)
+	 FOLD 4
+		 train:val:test = 152445:26873:5435 = 0.8251286853258134:0.14545365975112717:0.029417654923059436
+		 Number of train examples per class: 	(array([0., 1.]), array([133673,  18772]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24004,  2869]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3672, 1763]))
+		 Total time taken: 134.67738604545593 s
+====================================================================================================
+X_train (152020, 32, 6)
+X_val (26798, 32, 6)
+Y_train (152020, 32, 1)
+
+Y_val (26798, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5935, 32, 6)
+Y_test (5935, 32, 1)
+test_len (1,)
+	 FOLD 5
+		 train:val:test = 152020:26798:5935 = 0.8228283167255741:0.14504771235108496:0.03212397092334089
+		 Number of train examples per class: 	(array([0., 1.]), array([132522,  19498]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23781,  3017]))
+		 Number of test examples per class: 	(array([0., 1.]), array([5046,  889]))
+		 Total time taken: 162.10921430587769 s
+====================================================================================================
+X_train (155271, 32, 6)
+X_val (27372, 32, 6)
+Y_train (155271, 32, 1)
+Y_val (27372, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2110, 32, 6)
+Y_test (2110, 32, 1)
+test_len (1,)
+	 FOLD 6
+		 train:val:test = 155271:27372:2110 = 0.8404247833594042:0.14815456311940808:0.011420653521187749
+		 Number of train examples per class: 	(array([0., 1.]), array([135702,  19569]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23537,  3835]))
+		 Number of test examples per class: 	(array([0.]), array([2110]))
+		 Total time taken: 189.1318085193634 s
+====================================================================================================
+X_train (152282, 32, 6)
+X_val (26845, 32, 6)
+Y_train (152282, 32, 1)
+Y_val (26845, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5626, 32, 6)
+Y_test (5626, 32, 1)
+test_len (1,)
+	 FOLD 7
+		 train:val:test = 152282:26845:5626 = 0.8242464263097217:0.14530210605511143:0.030451467635166953
+		 Number of train examples per class: 	(array([0., 1.]), array([132610,  19672]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23113,  3732]))
+		 Number of test examples per class: 	(array([0.]), array([5626]))
+		 Total time taken: 215.51580572128296 s
+====================================================================================================
+X_train (152563, 32, 6)
+X_val (26894, 32, 6)
+Y_train (152563, 32, 1)
+Y_val (26894, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5296, 32, 6)
+Y_test (5296, 32, 1)
+test_len (1,)
+	 FOLD 8
+		 train:val:test = 152563:26894:5296 = 0.8257673759018798:0.145567325023139:0.02866529907498119
+		 Number of train examples per class: 	(array([0., 1.]), array([134029,  18534]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22024,  4870]))
+		 Number of test examples per class: 	(array([0.]), array([5296]))
+		 Total time taken: 243.30793452262878 s
+====================================================================================================
+X_train (152106, 32, 6)
+X_val (26814, 32, 6)
+Y_train (152106, 32, 1)
+Y_val (26814, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5833, 32, 6)
+Y_test (5833, 32, 1)
+test_len (1,)
+	 FOLD 9
+		 train:val:test = 152106:26814:5833 = 0.8232938030776226:0.14513431446309397:0.031571882459283475
+		 Number of train examples per class: 	(array([0., 1.]), array([132638,  19468]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23820,  2994]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4891,  942]))
+		 Total time taken: 270.6216251850128 s
+====================================================================================================
+X_train (153947, 32, 6)
+X_val (27138, 32, 6)
+Y_train (153947, 32, 1)
+Y_val (27138, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3668, 32, 6)
+Y_test (3668, 32, 1)
+test_len (1,)
+	 FOLD 10
+		 train:val:test = 153947:27138:3668 = 0.8332584585906588:0.14688800723127635:0.019853534178064767
+		 Number of train examples per class: 	(array([0., 1.]), array([135600,  18347]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23317,  3821]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2432, 1236]))
+		 Total time taken: 298.10444498062134 s
+====================================================================================================
+X_train (154539, 32, 6)
+X_val (27243, 32, 6)
+Y_train (154539, 32, 1)
+Y_val (27243, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2971, 32, 6)
+Y_test (2971, 32, 1)
+test_len (1,)
+	 FOLD 11
+		 train:val:test = 154539:27243:2971 = 0.8364627367349922:0.14745633359133545:0.016080929673672417
+		 Number of train examples per class: 	(array([0., 1.]), array([134786,  19753]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24399,  2844]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2164,  807]))
+		 Total time taken: 324.57393860816956 s
+====================================================================================================
+X_train (155225, 32, 6)
+X_val (27364, 32, 6)
+Y_train (155225, 32, 1)
+Y_val (27364, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2164, 32, 6)
+Y_test (2164, 32, 1)
+test_len (1,)
+	 FOLD 12
+		 train:val:test = 155225:27364:2164 = 0.8401758022873783:0.14811126206340358:0.011712935649218145
+		 Number of train examples per class: 	(array([0., 1.]), array([135873,  19352]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23337,  4027]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2139,   25]))
+		 Total time taken: 352.1897225379944 s
+====================================================================================================
+X_train (152656, 32, 6)
+X_val (26911, 32, 6)
+Y_train (152656, 32, 1)
+Y_val (26911, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5186, 32, 6)
+Y_test (5186, 32, 1)
+test_len (1,)
+	 FOLD 13
+		 train:val:test = 152656:26911:5186 = 0.8262707506779322:0.14565933976714857:0.02806990955491927
+		 Number of train examples per class: 	(array([0., 1.]), array([132792,  19864]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23371,  3540]))
+		 Number of test examples per class: 	(array([0.]), array([5186]))
+		 Total time taken: 378.99639797210693 s
+====================================================================================================
+X_train (154709, 32, 6)
+X_val (27273, 32, 6)
+Y_train (154709, 32, 1)
+Y_val (27273, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2771, 32, 6)
+Y_test (2771, 32, 1)
+test_len (1,)
+	 FOLD 14
+		 train:val:test = 154709:27273:2771 = 0.8373828841750878:0.14761871255135234:0.014998403273559833
+		 Number of train examples per class: 	(array([0., 1.]), array([134735,  19974]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23867,  3406]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2747,   24]))
+		 Total time taken: 405.6779305934906 s
+====================================================================================================
+X_train (153730, 32, 6)
+X_val (27100, 32, 6)
+Y_train (153730, 32, 1)
+Y_val (27100, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3923, 32, 6)
+Y_test (3923, 32, 1)
+test_len (1,)
+	 FOLD 15
+		 train:val:test = 153730:27100:3923 = 0.8320839174465368:0.14668232721525495:0.021233755338208312
+		 Number of train examples per class: 	(array([0., 1.]), array([133039,  20691]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24833,  2267]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3477,  446]))
+		 Total time taken: 432.3667788505554 s
+====================================================================================================
+X_train (153768, 32, 6)
+X_val (27107, 32, 6)
+Y_train (153768, 32, 1)
+Y_val (27107, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3878, 32, 6)
+Y_test (3878, 32, 1)
+test_len (1,)
+	 FOLD 16
+		 train:val:test = 153768:27107:3878 = 0.8322895974625582:0.1467202156392589:0.02099018689818298
+		 Number of train examples per class: 	(array([0., 1.]), array([135111,  18657]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22810,  4297]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3428,  450]))
+		 Total time taken: 458.4814467430115 s
+====================================================================================================
+X_train (150553, 32, 6)
+X_val (26539, 32, 6)
+Y_train (150553, 32, 1)
+Y_val (26539, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (7661, 32, 6)
+Y_test (7661, 32, 1)
+test_len (1,)
+	 FOLD 17
+		 train:val:test = 150553:26539:7661 = 0.8148879855807484:0.14364584066293917:0.04146617375631248
+		 Number of train examples per class: 	(array([0., 1.]), array([131597,  18956]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22390,  4149]))
+		 Number of test examples per class: 	(array([0., 1.]), array([7362,  299]))
+		 Total time taken: 486.5333254337311 s
+====================================================================================================
+
+X_train (153251, 32, 6)
+X_val (27015, 32, 6)
+Y_train (153251, 32, 1)
+Y_val (27015, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4487, 32, 6)
+Y_test (4487, 32, 1)
+test_len (1,)
+	 FOLD 18
+		 train:val:test = 153251:27015:4487 = 0.8294912667182671:0.14622225349520712:0.024286479786525796
+		 Number of train examples per class: 	(array([0., 1.]), array([132371,  20880]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24491,  2524]))
+		 Number of test examples per class: 	(array([0.]), array([4487]))
+		 Total time taken: 512.7345643043518 s
+====================================================================================================
+X_train (153636, 32, 6)
+X_val (27084, 32, 6)
+Y_train (153636, 32, 1)
+Y_val (27084, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4033, 32, 6)
+Y_test (4033, 32, 1)
+test_len (1,)
+	 FOLD 19
+		 train:val:test = 153636:27084:4033 = 0.8315751300384838:0.14659572510324595:0.02182914485827023
+		 Number of train examples per class: 	(array([0., 1.]), array([134575,  19061]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23148,  3936]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3626,  407]))
+		 Total time taken: 540.8964822292328 s
+====================================================================================================
+X_train (151520, 32, 6)
+X_val (26710, 32, 6)
+Y_train (151520, 32, 1)
+Y_val (26710, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (6523, 32, 6)
+Y_test (6523, 32, 1)
+test_len (1,)
+	 FOLD 20
+		 train:val:test = 151520:26710:6523 = 0.8201220007252927:0.14457140073503544:0.035306598539671885
+		 Number of train examples per class: 	(array([0., 1.]), array([131219,  20301]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24131,  2579]))
+		 Number of test examples per class: 	(array([0., 1.]), array([5999,  524]))
+		 Total time taken: 567.7892293930054 s
+====================================================================================================
+X_train (153461, 32, 6)
+X_val (27053, 32, 6)
+Y_train (153461, 32, 1)
+Y_val (27053, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4239, 32, 6)
+Y_test (4239, 32, 1)
+test_len (1,)
+	 FOLD 21
+		 train:val:test = 153461:27053:4239 = 0.8306279194383853:0.14642793351122851:0.02294414705038619
+		 Number of train examples per class: 	(array([0., 1.]), array([133719,  19742]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23957,  3096]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3673,  566]))
+		 Total time taken: 594.74769282341 s
+====================================================================================================
+X_train (153645, 32, 6)
+X_val (27085, 32, 6)
+Y_train (153645, 32, 1)
+Y_val (27085, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4023, 32, 6)
+Y_test (4023, 32, 1)
+test_len (1,)
+	 FOLD 22
+		 train:val:test = 153645:27085:4023 = 0.8316238437264889:0.14660113773524652:0.021775018538264603
+		 Number of train examples per class: 	(array([0., 1.]), array([133918,  19727]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24216,  2869]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3215,  808]))
+		 Total time taken: 622.0907979011536 s
+====================================================================================================
+X_train (155314, 32, 6)
+X_val (27379, 32, 6)
+Y_train (155314, 32, 1)
+Y_val (27379, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2060, 32, 6)
+Y_test (2060, 32, 1)
+test_len (1,)
+	 FOLD 23
+		 train:val:test = 155314:27379:2060 = 0.8406575265354284:0.148192451543412:0.011150021921159603
+		 Number of train examples per class: 	(array([0., 1.]), array([136036,  19278]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24484,  2895]))
+		 Number of test examples per class: 	(array([0., 1.]), array([ 829, 1231]))
+		 Total time taken: 649.7911152839661 s
+====================================================================================================
+X_train (154555, 32, 6)
+X_val (27246, 32, 6)
+Y_train (154555, 32, 1)
+Y_val (27246, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2952, 32, 6)
+Y_test (2952, 32, 1)
+test_len (1,)
+	 FOLD 24
+		 train:val:test = 154555:27246:2952 = 0.8365493388470011:0.14747257148733714:0.01597808966566172
+		 Number of train examples per class: 	(array([0., 1.]), array([135527,  19028]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24096,  3150]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1726, 1226]))
+		 Total time taken: 676.8118388652802 s
+====================================================================================================
+X_train (154437, 32, 6)
+X_val (27225, 32, 6)
+Y_train (154437, 32, 1)
+Y_val (27225, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3091, 32, 6)
+Y_test (3091, 32, 1)
+test_len (1,)
+	 FOLD 25
+		 train:val:test = 154437:27225:3091 = 0.8359106482709348:0.14735890621532532:0.016730445513739967
+		 Number of train examples per class: 	(array([0., 1.]), array([135812,  18625]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24081,  3144]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1456, 1635]))
+		 Total time taken: 703.7287921905518 s
+====================================================================================================
+X_train (155030, 32, 6)
+X_val (27330, 32, 6)
+Y_train (155030, 32, 1)
+Y_val (27330, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2393, 32, 6)
+Y_test (2393, 32, 1)
+test_len (1,)
+	 FOLD 26
+		 train:val:test = 155030:27330:2393 = 0.8391203390472685:0.14792723257538443:0.012952428377347053
+		 Number of train examples per class: 	(array([0., 1.]), array([135330,  19700]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24030,  3300]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1989,  404]))
+		 Total time taken: 731.0320723056793 s
+====================================================================================================
+X_train (155055, 32, 6)
+X_val (27334, 32, 6)
+Y_train (155055, 32, 1)
+Y_val (27334, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2364, 32, 6)
+Y_test (2364, 32, 1)
+test_len (1,)
+	 FOLD 27
+		 train:val:test = 155055:27334:2364 = 0.8392556548472826:0.1479488831033867:0.012795462049330728
+		 Number of train examples per class: 	(array([0., 1.]), array([136174,  18881]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24125,  3209]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1050, 1314]))
+		 Total time taken: 758.2925276756287 s
+====================================================================================================
+X_train (153936, 32, 6)
+X_val (27136, 32, 6)
+Y_train (153936, 32, 1)
+Y_val (27136, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3681, 32, 6)
+Y_test (3681, 32, 1)
+test_len (1,)
+	 FOLD 28
+		 train:val:test = 153936:27136:3681 = 0.8331989196386527:0.14687718196727523:0.019923898394072086
+		 Number of train examples per class: 	(array([0., 1.]), array([135223,  18713]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23378,  3758]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2748,  933]))
+		 Total time taken: 783.9771184921265 s
+====================================================================================================
+X_train (150934, 32, 6)
+X_val (26607, 32, 6)
+Y_train (150934, 32, 1)
+Y_val (26607, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (7212, 32, 6)
+Y_test (7212, 32, 1)
+test_len (1,)
+	 FOLD 29
+		 train:val:test = 150934:26607:7212 = 0.8169501983729628:0.14401389963897746:0.039035901988059736
+		 Number of train examples per class: 	(array([0., 1.]), array([131750,  19184]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22405,  4202]))
+		 Number of test examples per class: 	(array([0., 1.]), array([7194,   18]))
+		 Total time taken: 810.5016570091248 s
+====================================================================================================
+X_train (154961, 32, 6)
+X_val (27317, 32, 6)
+Y_train (154961, 32, 1)
+Y_val (27317, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2475, 32, 6)
+Y_test (2475, 32, 1)
+test_len (1,)
+
+	 FOLD 30
+		 train:val:test = 154961:27317:2475 = 0.8387468674392297:0.1478568683593771:0.013396264201393211
+		 Number of train examples per class: 	(array([0., 1.]), array([135104,  19857]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23862,  3455]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2383,   92]))
+		 Total time taken: 837.9867815971375 s
+====================================================================================================
+X_train (153707, 32, 6)
+X_val (27096, 32, 6)
+Y_train (153707, 32, 1)
+Y_val (27096, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3950, 32, 6)
+Y_test (3950, 32, 1)
+test_len (1,)
+	 FOLD 31
+		 train:val:test = 153707:27096:3950 = 0.8319594269105238:0.14666067668725272:0.02137989640222351
+		 Number of train examples per class: 	(array([0., 1.]), array([134830,  18877]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22696,  4400]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3823,  127]))
+		 Total time taken: 866.3659863471985 s
+====================================================================================================
+X_train (153382, 32, 6)
+X_val (27039, 32, 6)
+Y_train (153382, 32, 1)
+Y_val (27039, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4332, 32, 6)
+Y_test (4332, 32, 1)
+test_len (1,)
+	 FOLD 32
+		 train:val:test = 153382:27039:4332 = 0.8302003215103408:0.14635215666322063:0.02344752182643854
+		 Number of train examples per class: 	(array([0., 1.]), array([133646,  19736]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23696,  3343]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4007,  325]))
+		 Total time taken: 891.3670506477356 s
+====================================================================================================
+X_train (153682, 32, 6)
+X_val (27091, 32, 6)
+Y_train (153682, 32, 1)
+Y_val (27091, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3980, 32, 6)
+Y_test (3980, 32, 1)
+test_len (1,)
+	 FOLD 33
+		 train:val:test = 153682:27091:3980 = 0.8318241111105097:0.1466336135272499:0.021542275362240397
+		 Number of train examples per class: 	(array([0., 1.]), array([134745,  18937]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23923,  3168]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2681, 1299]))
+		 Total time taken: 918.3695466518402 s
+====================================================================================================
+X_train (152435, 32, 6)
+X_val (26872, 32, 6)
+Y_train (152435, 32, 1)
+Y_val (26872, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5446, 32, 6)
+Y_test (5446, 32, 1)
+test_len (1,)
+	 FOLD 34
+		 train:val:test = 152435:26872:5446 = 0.8250745590058077:0.14544824711912663:0.02947719387506563
+		 Number of train examples per class: 	(array([0., 1.]), array([132768,  19667]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23135,  3737]))
+		 Number of test examples per class: 	(array([0.]), array([5446]))
+		 Total time taken: 945.1382682323456 s
+====================================================================================================
+X_train (154896, 32, 6)
+X_val (27306, 32, 6)
+Y_train (154896, 32, 1)
+Y_val (27306, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2551, 32, 6)
+Y_test (2551, 32, 1)
+test_len (1,)
+	 FOLD 35
+		 train:val:test = 154896:27306:2551 = 0.838395046359193:0.14779732940737092:0.013807624233435994
+		 Number of train examples per class: 	(array([0., 1.]), array([135085,  19811]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23713,  3593]))
+		 Number of test examples per class: 	(array([0.]), array([2551]))
+		 Total time taken: 973.3553116321564 s
+====================================================================================================
+X_train (153398, 32, 6)
+X_val (27041, 32, 6)
+Y_train (153398, 32, 1)
+Y_val (27041, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4314, 32, 6)
+Y_test (4314, 32, 1)
+test_len (1,)
+	 FOLD 36
+		 train:val:test = 153398:27041:4314 = 0.8302869236223498:0.14636298192722175:0.023350094450428408
+		 Number of train examples per class: 	(array([0., 1.]), array([134091,  19307]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22944,  4097]))
+		 Number of test examples per class: 	(array([0.]), array([4314]))
+		 Total time taken: 998.402957201004 s
+====================================================================================================
+X_train (152706, 32, 6)
+X_val (26919, 32, 6)
+Y_train (152706, 32, 1)
+Y_val (26919, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5128, 32, 6)
+Y_test (5128, 32, 1)
+test_len (1,)
+	 FOLD 37
+		 train:val:test = 152706:26919:5128 = 0.8265413822779603:0.14570264082315307:0.027755976898886623
+		 Number of train examples per class: 	(array([0., 1.]), array([133863,  18843]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24265,  2654]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3221, 1907]))
+		 Total time taken: 1026.1911973953247 s
+====================================================================================================
+X_train (153292, 32, 6)
+X_val (27023, 32, 6)
+Y_train (153292, 32, 1)
+Y_val (27023, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4438, 32, 6)
+Y_test (4438, 32, 1)
+test_len (1,)
+	 FOLD 38
+		 train:val:test = 153292:27023:4438 = 0.8297131846302902:0.14626555455121162:0.024021260818498213
+		 Number of train examples per class: 	(array([0., 1.]), array([134085,  19207]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22826,  4197]))
+		 Number of test examples per class: 	(array([0.]), array([4438]))
+		 Total time taken: 1052.5465924739838 s
+====================================================================================================
+X_train (153483, 32, 6)
+X_val (27057, 32, 6)
+Y_train (153483, 32, 1)
+Y_val (27057, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4213, 32, 6)
+Y_test (4213, 32, 1)
+test_len (1,)
+	 FOLD 39
+		 train:val:test = 153483:27057:4213 = 0.8307469973423977:0.14644958403923075:0.022803418618371554
+		 Number of train examples per class: 	(array([0., 1.]), array([133302,  20181]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23834,  3223]))
+		 Number of test examples per class: 	(array([0.]), array([4213]))
+		 Total time taken: 1081.3825109004974 s
+====================================================================================================
+X_train (154022, 32, 6)
+X_val (27152, 32, 6)
+Y_train (154022, 32, 1)
+Y_val (27152, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3579, 32, 6)
+Y_test (3579, 32, 1)
+test_len (1,)
+	 FOLD 40
+		 train:val:test = 154022:27152:3579 = 0.8336644059907011:0.14696378407928423:0.01937180993001467
+		 Number of train examples per class: 	(array([0., 1.]), array([134914,  19108]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22856,  4296]))
+		 Number of test examples per class: 	(array([0.]), array([3579]))
+		 Total time taken: 1106.7265510559082 s
+====================================================================================================
+X_train (152637, 32, 6)
+X_val (26907, 32, 6)
+Y_train (152637, 32, 1)
+Y_val (26907, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5209, 32, 6)
+Y_test (5209, 32, 1)
+test_len (1,)
+	 FOLD 41
+		 train:val:test = 152637:26907:5209 = 0.8261679106699215:0.14563768923914633:0.028194400090932218
+		 Number of train examples per class: 	(array([0., 1.]), array([134113,  18524]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22755,  4152]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4481,  728]))
+		 Total time taken: 1133.7433161735535 s
+====================================================================================================
+X_train (154170, 32, 6)
+X_val (27178, 32, 6)
+Y_train (154170, 32, 1)
+Y_val (27178, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3405, 32, 6)
+Y_test (3405, 32, 1)
+test_len (1,)
+	 FOLD 42
+		 train:val:test = 154170:27178:3405 = 0.8344654755267844:0.14710451251129886:0.018430011961916723
+		 Number of train examples per class: 	(array([0., 1.]), array([135250,  18920]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23851,  3327]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2248, 1157]))
+		 Total time taken: 1159.912780046463 s
+====================================================================================================
+
+X_train (154306, 32, 6)
+X_val (27202, 32, 6)
+Y_train (154306, 32, 1)
+Y_val (27202, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3245, 32, 6)
+Y_test (3245, 32, 1)
+test_len (1,)
+	 FOLD 43
+		 train:val:test = 154306:27202:3245 = 0.8352015934788609:0.1472344156793124:0.017563990841826655
+		 Number of train examples per class: 	(array([0., 1.]), array([134965,  19341]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23584,  3618]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2800,  445]))
+		 Total time taken: 1188.1838142871857 s
+====================================================================================================
+X_train (152701, 32, 6)
+X_val (26919, 32, 6)
+Y_train (152701, 32, 1)
+Y_val (26919, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5133, 32, 6)
+Y_test (5133, 32, 1)
+test_len (1,)
+	 FOLD 44
+		 train:val:test = 152701:26919:5133 = 0.8265143191179575:0.14570264082315307:0.027783040058889437
+		 Number of train examples per class: 	(array([0., 1.]), array([133255,  19446]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23203,  3716]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4891,  242]))
+		 Total time taken: 1214.030770778656 s
+====================================================================================================
+Selected features: 
+	['diff_ pose_Tx', 'diff_ pose_Ty', 'diff_ pose_Tz', 'diff_ pose_Rx', 'diff_ pose_Ry', 'diff_ pose_Rz']
+X_train (154430, 64, 6)
+X_val (27224, 64, 6)
+Y_train (154430, 64, 1)
+Y_val (27224, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3099, 64, 6)
+Y_test (3099, 64, 1)
+test_len (1,)
+	 FOLD 0
+		 train:val:test = 154430:27224:3099 = 0.8358727598469308:0.14735349358332475:0.01677374656974447
+		 Number of train examples per class: 	(array([0., 1.]), array([134375,  20055]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23900,  3324]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3074,   25]))
+		 Total time taken: 26.91933798789978 s
+====================================================================================================
+X_train (154988, 64, 6)
+X_val (27322, 64, 6)
+Y_train (154988, 64, 1)
+Y_val (27322, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2443, 64, 6)
+Y_test (2443, 64, 1)
+test_len (1,)
+	 FOLD 1
+		 train:val:test = 154988:27322:2443 = 0.8388930085032449:0.14788393151937992:0.013223059977375199
+		 Number of train examples per class: 	(array([0., 1.]), array([136467,  18521]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23138,  4184]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1744,  699]))
+		 Total time taken: 54.93441557884216 s
+====================================================================================================
+X_train (153589, 64, 6)
+X_val (27075, 64, 6)
+Y_train (153589, 64, 1)
+Y_val (27075, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4089, 64, 6)
+Y_test (4089, 64, 1)
+test_len (1,)
+	 FOLD 2
+		 train:val:test = 153589:27075:4089 = 0.8313207363344574:0.1465470114152409:0.022132252250301753
+		 Number of train examples per class: 	(array([0., 1.]), array([134367,  19222]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23204,  3871]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3778,  311]))
+		 Total time taken: 82.03668642044067 s
+====================================================================================================
+X_train (153487, 64, 6)
+X_val (27057, 64, 6)
+Y_train (153487, 64, 1)
+Y_val (27057, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4209, 64, 6)
+Y_test (4209, 64, 1)
+test_len (1,)
+	 FOLD 3
+		 train:val:test = 153487:27057:4209 = 0.8307686478704:0.14644958403923075:0.022781768090369303
+		 Number of train examples per class: 	(array([0., 1.]), array([133426,  20061]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23814,  3243]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4109,  100]))
+		 Total time taken: 110.15695929527283 s
+====================================================================================================
+X_train (152445, 64, 6)
+X_val (26873, 64, 6)
+Y_train (152445, 64, 1)
+Y_val (26873, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5435, 64, 6)
+Y_test (5435, 64, 1)
+test_len (1,)
+	 FOLD 4
+		 train:val:test = 152445:26873:5435 = 0.8251286853258134:0.14545365975112717:0.029417654923059436
+		 Number of train examples per class: 	(array([0., 1.]), array([134114,  18331]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23563,  3310]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3672, 1763]))
+		 Total time taken: 137.57560443878174 s
+====================================================================================================
+X_train (152020, 64, 6)
+X_val (26798, 64, 6)
+Y_train (152020, 64, 1)
+Y_val (26798, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5935, 64, 6)
+Y_test (5935, 64, 1)
+test_len (1,)
+	 FOLD 5
+		 train:val:test = 152020:26798:5935 = 0.8228283167255741:0.14504771235108496:0.03212397092334089
+		 Number of train examples per class: 	(array([0., 1.]), array([133669,  18351]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22634,  4164]))
+		 Number of test examples per class: 	(array([0., 1.]), array([5046,  889]))
+		 Total time taken: 172.70132565498352 s
+====================================================================================================
+X_train (155271, 64, 6)
+X_val (27372, 64, 6)
+Y_train (155271, 64, 1)
+Y_val (27372, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2110, 64, 6)
+Y_test (2110, 64, 1)
+test_len (1,)
+	 FOLD 6
+		 train:val:test = 155271:27372:2110 = 0.8404247833594042:0.14815456311940808:0.011420653521187749
+		 Number of train examples per class: 	(array([0., 1.]), array([135589,  19682]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23650,  3722]))
+		 Number of test examples per class: 	(array([0.]), array([2110]))
+		 Total time taken: 199.56711387634277 s
+====================================================================================================
+X_train (152282, 64, 6)
+X_val (26845, 64, 6)
+Y_train (152282, 64, 1)
+Y_val (26845, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5626, 64, 6)
+Y_test (5626, 64, 1)
+test_len (1,)
+	 FOLD 7
+		 train:val:test = 152282:26845:5626 = 0.8242464263097217:0.14530210605511143:0.030451467635166953
+		 Number of train examples per class: 	(array([0., 1.]), array([132977,  19305]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22746,  4099]))
+		 Number of test examples per class: 	(array([0.]), array([5626]))
+		 Total time taken: 228.22859597206116 s
+====================================================================================================
+X_train (152563, 64, 6)
+X_val (26894, 64, 6)
+Y_train (152563, 64, 1)
+Y_val (26894, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5296, 64, 6)
+Y_test (5296, 64, 1)
+test_len (1,)
+	 FOLD 8
+		 train:val:test = 152563:26894:5296 = 0.8257673759018798:0.145567325023139:0.02866529907498119
+		 Number of train examples per class: 	(array([0., 1.]), array([133160,  19403]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22893,  4001]))
+		 Number of test examples per class: 	(array([0.]), array([5296]))
+		 Total time taken: 254.4851508140564 s
+====================================================================================================
+X_train (152106, 64, 6)
+X_val (26814, 64, 6)
+Y_train (152106, 64, 1)
+Y_val (26814, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5833, 64, 6)
+Y_test (5833, 64, 1)
+test_len (1,)
+	 FOLD 9
+		 train:val:test = 152106:26814:5833 = 0.8232938030776226:0.14513431446309397:0.031571882459283475
+		 Number of train examples per class: 	(array([0., 1.]), array([133306,  18800]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23152,  3662]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4891,  942]))
+		 Total time taken: 283.99333667755127 s
+====================================================================================================
+X_train (153947, 64, 6)
+X_val (27138, 64, 6)
+Y_train (153947, 64, 1)
+Y_val (27138, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3668, 64, 6)
+Y_test (3668, 64, 1)
+test_len (1,)
+
+	 FOLD 10
+		 train:val:test = 153947:27138:3668 = 0.8332584585906588:0.14688800723127635:0.019853534178064767
+		 Number of train examples per class: 	(array([0., 1.]), array([135335,  18612]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23582,  3556]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2432, 1236]))
+		 Total time taken: 311.46742510795593 s
+====================================================================================================
+X_train (154539, 64, 6)
+X_val (27243, 64, 6)
+Y_train (154539, 64, 1)
+Y_val (27243, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2971, 64, 6)
+Y_test (2971, 64, 1)
+test_len (1,)
+	 FOLD 11
+		 train:val:test = 154539:27243:2971 = 0.8364627367349922:0.14745633359133545:0.016080929673672417
+		 Number of train examples per class: 	(array([0., 1.]), array([135773,  18766]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23412,  3831]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2164,  807]))
+		 Total time taken: 339.62552857398987 s
+====================================================================================================
+X_train (155225, 64, 6)
+X_val (27364, 64, 6)
+Y_train (155225, 64, 1)
+Y_val (27364, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2164, 64, 6)
+Y_test (2164, 64, 1)
+test_len (1,)
+	 FOLD 12
+		 train:val:test = 155225:27364:2164 = 0.8401758022873783:0.14811126206340358:0.011712935649218145
+		 Number of train examples per class: 	(array([0., 1.]), array([135128,  20097]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24082,  3282]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2139,   25]))
+		 Total time taken: 365.95426177978516 s
+====================================================================================================
+X_train (152656, 64, 6)
+X_val (26911, 64, 6)
+Y_train (152656, 64, 1)
+Y_val (26911, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5186, 64, 6)
+Y_test (5186, 64, 1)
+test_len (1,)
+	 FOLD 13
+		 train:val:test = 152656:26911:5186 = 0.8262707506779322:0.14565933976714857:0.02806990955491927
+		 Number of train examples per class: 	(array([0., 1.]), array([132303,  20353]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23860,  3051]))
+		 Number of test examples per class: 	(array([0.]), array([5186]))
+		 Total time taken: 395.17375779151917 s
+====================================================================================================
+X_train (154709, 64, 6)
+X_val (27273, 64, 6)
+Y_train (154709, 64, 1)
+Y_val (27273, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2771, 64, 6)
+Y_test (2771, 64, 1)
+test_len (1,)
+	 FOLD 14
+		 train:val:test = 154709:27273:2771 = 0.8373828841750878:0.14761871255135234:0.014998403273559833
+		 Number of train examples per class: 	(array([0., 1.]), array([134620,  20089]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23982,  3291]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2747,   24]))
+		 Total time taken: 422.288122177124 s
+====================================================================================================
+X_train (153730, 64, 6)
+X_val (27100, 64, 6)
+Y_train (153730, 64, 1)
+Y_val (27100, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3923, 64, 6)
+Y_test (3923, 64, 1)
+test_len (1,)
+	 FOLD 15
+		 train:val:test = 153730:27100:3923 = 0.8320839174465368:0.14668232721525495:0.021233755338208312
+		 Number of train examples per class: 	(array([0., 1.]), array([134409,  19321]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23463,  3637]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3477,  446]))
+		 Total time taken: 451.3062746524811 s
+====================================================================================================
+X_train (153768, 64, 6)
+X_val (27107, 64, 6)
+Y_train (153768, 64, 1)
+Y_val (27107, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3878, 64, 6)
+Y_test (3878, 64, 1)
+test_len (1,)
+	 FOLD 16
+		 train:val:test = 153768:27107:3878 = 0.8322895974625582:0.1467202156392589:0.02099018689818298
+		 Number of train examples per class: 	(array([0., 1.]), array([134401,  19367]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23520,  3587]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3428,  450]))
+		 Total time taken: 478.1154098510742 s
+====================================================================================================
+X_train (150553, 64, 6)
+X_val (26539, 64, 6)
+Y_train (150553, 64, 1)
+Y_val (26539, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (7661, 64, 6)
+Y_test (7661, 64, 1)
+test_len (1,)
+	 FOLD 17
+		 train:val:test = 150553:26539:7661 = 0.8148879855807484:0.14364584066293917:0.04146617375631248
+		 Number of train examples per class: 	(array([0., 1.]), array([130906,  19647]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23081,  3458]))
+		 Number of test examples per class: 	(array([0., 1.]), array([7362,  299]))
+		 Total time taken: 506.6762523651123 s
+====================================================================================================
+X_train (153251, 64, 6)
+X_val (27015, 64, 6)
+Y_train (153251, 64, 1)
+Y_val (27015, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4487, 64, 6)
+Y_test (4487, 64, 1)
+test_len (1,)
+	 FOLD 18
+		 train:val:test = 153251:27015:4487 = 0.8294912667182671:0.14622225349520712:0.024286479786525796
+		 Number of train examples per class: 	(array([0., 1.]), array([133853,  19398]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23009,  4006]))
+		 Number of test examples per class: 	(array([0.]), array([4487]))
+		 Total time taken: 533.2549991607666 s
+====================================================================================================
+X_train (153636, 64, 6)
+X_val (27084, 64, 6)
+Y_train (153636, 64, 1)
+Y_val (27084, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4033, 64, 6)
+Y_test (4033, 64, 1)
+test_len (1,)
+	 FOLD 19
+		 train:val:test = 153636:27084:4033 = 0.8315751300384838:0.14659572510324595:0.02182914485827023
+		 Number of train examples per class: 	(array([0., 1.]), array([134219,  19417]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23504,  3580]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3626,  407]))
+		 Total time taken: 561.8855321407318 s
+====================================================================================================
+X_train (151520, 64, 6)
+X_val (26710, 64, 6)
+Y_train (151520, 64, 1)
+Y_val (26710, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (6523, 64, 6)
+Y_test (6523, 64, 1)
+test_len (1,)
+	 FOLD 20
+		 train:val:test = 151520:26710:6523 = 0.8201220007252927:0.14457140073503544:0.035306598539671885
+		 Number of train examples per class: 	(array([0., 1.]), array([130708,  20812]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24642,  2068]))
+		 Number of test examples per class: 	(array([0., 1.]), array([5999,  524]))
+		 Total time taken: 589.0666663646698 s
+====================================================================================================
+X_train (153461, 64, 6)
+X_val (27053, 64, 6)
+Y_train (153461, 64, 1)
+Y_val (27053, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4239, 64, 6)
+Y_test (4239, 64, 1)
+test_len (1,)
+	 FOLD 21
+		 train:val:test = 153461:27053:4239 = 0.8306279194383853:0.14642793351122851:0.02294414705038619
+		 Number of train examples per class: 	(array([0., 1.]), array([133588,  19873]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24088,  2965]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3673,  566]))
+		 Total time taken: 617.6777503490448 s
+====================================================================================================
+X_train (153645, 64, 6)
+X_val (27085, 64, 6)
+Y_train (153645, 64, 1)
+Y_val (27085, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4023, 64, 6)
+Y_test (4023, 64, 1)
+test_len (1,)
+	 FOLD 22
+		 train:val:test = 153645:27085:4023 = 0.8316238437264889:0.14660113773524652:0.021775018538264603
+		 Number of train examples per class: 	(array([0., 1.]), array([134716,  18929]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23418,  3667]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3215,  808]))
+		 Total time taken: 644.215215921402 s
+====================================================================================================
+
+X_train (155314, 64, 6)
+X_val (27379, 64, 6)
+Y_train (155314, 64, 1)
+Y_val (27379, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2060, 64, 6)
+Y_test (2060, 64, 1)
+test_len (1,)
+	 FOLD 23
+		 train:val:test = 155314:27379:2060 = 0.8406575265354284:0.148192451543412:0.011150021921159603
+		 Number of train examples per class: 	(array([0., 1.]), array([135741,  19573]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24779,  2600]))
+		 Number of test examples per class: 	(array([0., 1.]), array([ 829, 1231]))
+		 Total time taken: 673.0557408332825 s
+====================================================================================================
+X_train (154555, 64, 6)
+X_val (27246, 64, 6)
+Y_train (154555, 64, 1)
+Y_val (27246, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2952, 64, 6)
+Y_test (2952, 64, 1)
+test_len (1,)
+	 FOLD 24
+		 train:val:test = 154555:27246:2952 = 0.8365493388470011:0.14747257148733714:0.01597808966566172
+		 Number of train examples per class: 	(array([0., 1.]), array([136218,  18337]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23405,  3841]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1726, 1226]))
+		 Total time taken: 699.7168402671814 s
+====================================================================================================
+X_train (154437, 64, 6)
+X_val (27225, 64, 6)
+Y_train (154437, 64, 1)
+Y_val (27225, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3091, 64, 6)
+Y_test (3091, 64, 1)
+test_len (1,)
+	 FOLD 25
+		 train:val:test = 154437:27225:3091 = 0.8359106482709348:0.14735890621532532:0.016730445513739967
+		 Number of train examples per class: 	(array([0., 1.]), array([136585,  17852]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23308,  3917]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1456, 1635]))
+		 Total time taken: 727.7873980998993 s
+====================================================================================================
+X_train (155030, 64, 6)
+X_val (27330, 64, 6)
+Y_train (155030, 64, 1)
+Y_val (27330, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2393, 64, 6)
+Y_test (2393, 64, 1)
+test_len (1,)
+	 FOLD 26
+		 train:val:test = 155030:27330:2393 = 0.8391203390472685:0.14792723257538443:0.012952428377347053
+		 Number of train examples per class: 	(array([0., 1.]), array([135764,  19266]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23596,  3734]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1989,  404]))
+		 Total time taken: 754.615739107132 s
+====================================================================================================
+X_train (155055, 64, 6)
+X_val (27334, 64, 6)
+Y_train (155055, 64, 1)
+Y_val (27334, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2364, 64, 6)
+Y_test (2364, 64, 1)
+test_len (1,)
+	 FOLD 27
+		 train:val:test = 155055:27334:2364 = 0.8392556548472826:0.1479488831033867:0.012795462049330728
+		 Number of train examples per class: 	(array([0., 1.]), array([135645,  19410]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24654,  2680]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1050, 1314]))
+		 Total time taken: 783.321528673172 s
+====================================================================================================
+X_train (153936, 64, 6)
+X_val (27136, 64, 6)
+Y_train (153936, 64, 1)
+Y_val (27136, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3681, 64, 6)
+Y_test (3681, 64, 1)
+test_len (1,)
+	 FOLD 28
+		 train:val:test = 153936:27136:3681 = 0.8331989196386527:0.14687718196727523:0.019923898394072086
+		 Number of train examples per class: 	(array([0., 1.]), array([135919,  18017]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22682,  4454]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2748,  933]))
+		 Total time taken: 810.3044571876526 s
+====================================================================================================
+X_train (150934, 64, 6)
+X_val (26607, 64, 6)
+Y_train (150934, 64, 1)
+Y_val (26607, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (7212, 64, 6)
+Y_test (7212, 64, 1)
+test_len (1,)
+	 FOLD 29
+		 train:val:test = 150934:26607:7212 = 0.8169501983729628:0.14401389963897746:0.039035901988059736
+		 Number of train examples per class: 	(array([0., 1.]), array([131396,  19538]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22759,  3848]))
+		 Number of test examples per class: 	(array([0., 1.]), array([7194,   18]))
+		 Total time taken: 838.895834684372 s
+====================================================================================================
+X_train (154961, 64, 6)
+X_val (27317, 64, 6)
+Y_train (154961, 64, 1)
+Y_val (27317, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2475, 64, 6)
+Y_test (2475, 64, 1)
+test_len (1,)
+	 FOLD 30
+		 train:val:test = 154961:27317:2475 = 0.8387468674392297:0.1478568683593771:0.013396264201393211
+		 Number of train examples per class: 	(array([0., 1.]), array([135317,  19644]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23649,  3668]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2383,   92]))
+		 Total time taken: 865.0467801094055 s
+====================================================================================================
+X_train (153707, 64, 6)
+X_val (27096, 64, 6)
+Y_train (153707, 64, 1)
+Y_val (27096, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3950, 64, 6)
+Y_test (3950, 64, 1)
+test_len (1,)
+	 FOLD 31
+		 train:val:test = 153707:27096:3950 = 0.8319594269105238:0.14666067668725272:0.02137989640222351
+		 Number of train examples per class: 	(array([0., 1.]), array([133381,  20326]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24145,  2951]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3823,  127]))
+		 Total time taken: 894.1319570541382 s
+====================================================================================================
+X_train (153382, 64, 6)
+X_val (27039, 64, 6)
+Y_train (153382, 64, 1)
+Y_val (27039, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4332, 64, 6)
+Y_test (4332, 64, 1)
+test_len (1,)
+	 FOLD 32
+		 train:val:test = 153382:27039:4332 = 0.8302003215103408:0.14635215666322063:0.02344752182643854
+		 Number of train examples per class: 	(array([0., 1.]), array([133661,  19721]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23681,  3358]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4007,  325]))
+		 Total time taken: 921.1920669078827 s
+====================================================================================================
+X_train (153682, 64, 6)
+X_val (27091, 64, 6)
+Y_train (153682, 64, 1)
+Y_val (27091, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3980, 64, 6)
+Y_test (3980, 64, 1)
+test_len (1,)
+	 FOLD 33
+		 train:val:test = 153682:27091:3980 = 0.8318241111105097:0.1466336135272499:0.021542275362240397
+		 Number of train examples per class: 	(array([0., 1.]), array([135024,  18658]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23644,  3447]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2681, 1299]))
+		 Total time taken: 949.587427854538 s
+====================================================================================================
+X_train (152435, 64, 6)
+X_val (26872, 64, 6)
+Y_train (152435, 64, 1)
+Y_val (26872, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5446, 64, 6)
+Y_test (5446, 64, 1)
+test_len (1,)
+	 FOLD 34
+		 train:val:test = 152435:26872:5446 = 0.8250745590058077:0.14544824711912663:0.02947719387506563
+		 Number of train examples per class: 	(array([0., 1.]), array([132904,  19531]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22999,  3873]))
+		 Number of test examples per class: 	(array([0.]), array([5446]))
+		 Total time taken: 975.7523732185364 s
+====================================================================================================
+X_train (154896, 64, 6)
+X_val (27306, 64, 6)
+Y_train (154896, 64, 1)
+Y_val (27306, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2551, 64, 6)
+Y_test (2551, 64, 1)
+test_len (1,)
+
+	 FOLD 35
+		 train:val:test = 154896:27306:2551 = 0.838395046359193:0.14779732940737092:0.013807624233435994
+		 Number of train examples per class: 	(array([0., 1.]), array([134609,  20287]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24189,  3117]))
+		 Number of test examples per class: 	(array([0.]), array([2551]))
+		 Total time taken: 1004.5155775547028 s
+====================================================================================================
+X_train (153398, 64, 6)
+X_val (27041, 64, 6)
+Y_train (153398, 64, 1)
+Y_val (27041, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4314, 64, 6)
+Y_test (4314, 64, 1)
+test_len (1,)
+	 FOLD 36
+		 train:val:test = 153398:27041:4314 = 0.8302869236223498:0.14636298192722175:0.023350094450428408
+		 Number of train examples per class: 	(array([0., 1.]), array([133566,  19832]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23469,  3572]))
+		 Number of test examples per class: 	(array([0.]), array([4314]))
+		 Total time taken: 1031.669534444809 s
+====================================================================================================
+X_train (152706, 64, 6)
+X_val (26919, 64, 6)
+Y_train (152706, 64, 1)
+Y_val (26919, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5128, 64, 6)
+Y_test (5128, 64, 1)
+test_len (1,)
+	 FOLD 37
+		 train:val:test = 152706:26919:5128 = 0.8265413822779603:0.14570264082315307:0.027755976898886623
+		 Number of train examples per class: 	(array([0., 1.]), array([134975,  17731]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23153,  3766]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3221, 1907]))
+		 Total time taken: 1060.2346272468567 s
+====================================================================================================
+X_train (153292, 64, 6)
+X_val (27023, 64, 6)
+Y_train (153292, 64, 1)
+Y_val (27023, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4438, 64, 6)
+Y_test (4438, 64, 1)
+test_len (1,)
+	 FOLD 38
+		 train:val:test = 153292:27023:4438 = 0.8297131846302902:0.14626555455121162:0.024021260818498213
+		 Number of train examples per class: 	(array([0., 1.]), array([133561,  19731]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23350,  3673]))
+		 Number of test examples per class: 	(array([0.]), array([4438]))
+		 Total time taken: 1086.501609325409 s
+====================================================================================================
+X_train (153483, 64, 6)
+X_val (27057, 64, 6)
+Y_train (153483, 64, 1)
+Y_val (27057, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4213, 64, 6)
+Y_test (4213, 64, 1)
+test_len (1,)
+	 FOLD 39
+		 train:val:test = 153483:27057:4213 = 0.8307469973423977:0.14644958403923075:0.022803418618371554
+		 Number of train examples per class: 	(array([0., 1.]), array([133526,  19957]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23610,  3447]))
+		 Number of test examples per class: 	(array([0.]), array([4213]))
+		 Total time taken: 1114.7486317157745 s
+====================================================================================================
+X_train (154022, 64, 6)
+X_val (27152, 64, 6)
+Y_train (154022, 64, 1)
+Y_val (27152, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3579, 64, 6)
+Y_test (3579, 64, 1)
+test_len (1,)
+	 FOLD 40
+		 train:val:test = 154022:27152:3579 = 0.8336644059907011:0.14696378407928423:0.01937180993001467
+		 Number of train examples per class: 	(array([0., 1.]), array([134572,  19450]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23198,  3954]))
+		 Number of test examples per class: 	(array([0.]), array([3579]))
+		 Total time taken: 1141.9648277759552 s
+====================================================================================================
+X_train (152637, 64, 6)
+X_val (26907, 64, 6)
+Y_train (152637, 64, 1)
+Y_val (26907, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5209, 64, 6)
+Y_test (5209, 64, 1)
+test_len (1,)
+	 FOLD 41
+		 train:val:test = 152637:26907:5209 = 0.8261679106699215:0.14563768923914633:0.028194400090932218
+		 Number of train examples per class: 	(array([0., 1.]), array([133189,  19448]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23679,  3228]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4481,  728]))
+		 Total time taken: 1170.2151324748993 s
+====================================================================================================
+X_train (154170, 64, 6)
+X_val (27178, 64, 6)
+Y_train (154170, 64, 1)
+Y_val (27178, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3405, 64, 6)
+Y_test (3405, 64, 1)
+test_len (1,)
+	 FOLD 42
+		 train:val:test = 154170:27178:3405 = 0.8344654755267844:0.14710451251129886:0.018430011961916723
+		 Number of train examples per class: 	(array([0., 1.]), array([134581,  19589]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24520,  2658]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2248, 1157]))
+		 Total time taken: 1196.8154616355896 s
+====================================================================================================
+X_train (154306, 64, 6)
+X_val (27202, 64, 6)
+Y_train (154306, 64, 1)
+Y_val (27202, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3245, 64, 6)
+Y_test (3245, 64, 1)
+test_len (1,)
+	 FOLD 43
+		 train:val:test = 154306:27202:3245 = 0.8352015934788609:0.1472344156793124:0.017563990841826655
+		 Number of train examples per class: 	(array([0., 1.]), array([134014,  20292]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24535,  2667]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2800,  445]))
+		 Total time taken: 1224.3892242908478 s
+====================================================================================================
+X_train (152701, 64, 6)
+X_val (26919, 64, 6)
+Y_train (152701, 64, 1)
+Y_val (26919, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5133, 64, 6)
+Y_test (5133, 64, 1)
+test_len (1,)
+	 FOLD 44
+		 train:val:test = 152701:26919:5133 = 0.8265143191179575:0.14570264082315307:0.027783040058889437
+		 Number of train examples per class: 	(array([0., 1.]), array([133363,  19338]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23095,  3824]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4891,  242]))
+		 Total time taken: 1251.4618360996246 s
+====================================================================================================
+Selected features: 
+	['diff_ pose_Tx', 'diff_ pose_Ty', 'diff_ pose_Tz', 'diff2_ pose_Tx', 'diff2_ pose_Ty', 'diff2_ pose_Tz', 'diff_ pose_Rx', 'diff_ pose_Ry', 'diff_ pose_Rz', 'diff2_ pose_Rx', 'diff2_ pose_Ry', 'diff2_ pose_Rz']
+X_train (154430, 16, 12)
+X_val (27224, 16, 12)
+Y_train (154430, 16, 1)
+Y_val (27224, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3099, 16, 12)
+Y_test (3099, 16, 1)
+test_len (1,)
+	 FOLD 0
+		 train:val:test = 154430:27224:3099 = 0.8358727598469308:0.14735349358332475:0.01677374656974447
+		 Number of train examples per class: 	(array([0., 1.]), array([134187,  20243]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24088,  3136]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3074,   25]))
+		 Total time taken: 26.849429845809937 s
+====================================================================================================
+X_train (154988, 16, 12)
+X_val (27322, 16, 12)
+Y_train (154988, 16, 1)
+Y_val (27322, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2443, 16, 12)
+Y_test (2443, 16, 1)
+test_len (1,)
+	 FOLD 1
+		 train:val:test = 154988:27322:2443 = 0.8388930085032449:0.14788393151937992:0.013223059977375199
+		 Number of train examples per class: 	(array([0., 1.]), array([135994,  18994]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23611,  3711]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1744,  699]))
+		 Total time taken: 52.43675470352173 s
+====================================================================================================
+X_train (153589, 16, 12)
+X_val (27075, 16, 12)
+Y_train (153589, 16, 1)
+Y_val (27075, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4089, 16, 12)
+Y_test (4089, 16, 1)
+test_len (1,)
+
+	 FOLD 2
+		 train:val:test = 153589:27075:4089 = 0.8313207363344574:0.1465470114152409:0.022132252250301753
+		 Number of train examples per class: 	(array([0., 1.]), array([134207,  19382]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23364,  3711]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3778,  311]))
+		 Total time taken: 80.90424060821533 s
+====================================================================================================
+X_train (153487, 16, 12)
+X_val (27057, 16, 12)
+Y_train (153487, 16, 1)
+Y_val (27057, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4209, 16, 12)
+Y_test (4209, 16, 1)
+test_len (1,)
+	 FOLD 3
+		 train:val:test = 153487:27057:4209 = 0.8307686478704:0.14644958403923075:0.022781768090369303
+		 Number of train examples per class: 	(array([0., 1.]), array([134651,  18836]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22589,  4468]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4109,  100]))
+		 Total time taken: 107.14659404754639 s
+====================================================================================================
+X_train (152445, 16, 12)
+X_val (26873, 16, 12)
+Y_train (152445, 16, 1)
+Y_val (26873, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5435, 16, 12)
+Y_test (5435, 16, 1)
+test_len (1,)
+	 FOLD 4
+		 train:val:test = 152445:26873:5435 = 0.8251286853258134:0.14545365975112717:0.029417654923059436
+		 Number of train examples per class: 	(array([0., 1.]), array([133611,  18834]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24066,  2807]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3672, 1763]))
+		 Total time taken: 133.4259045124054 s
+====================================================================================================
+X_train (152020, 16, 12)
+X_val (26798, 16, 12)
+Y_train (152020, 16, 1)
+Y_val (26798, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5935, 16, 12)
+Y_test (5935, 16, 1)
+test_len (1,)
+	 FOLD 5
+		 train:val:test = 152020:26798:5935 = 0.8228283167255741:0.14504771235108496:0.03212397092334089
+		 Number of train examples per class: 	(array([0., 1.]), array([132536,  19484]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23767,  3031]))
+		 Number of test examples per class: 	(array([0., 1.]), array([5046,  889]))
+		 Total time taken: 159.8285632133484 s
+====================================================================================================
+X_train (155271, 16, 12)
+X_val (27372, 16, 12)
+Y_train (155271, 16, 1)
+Y_val (27372, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2110, 16, 12)
+Y_test (2110, 16, 1)
+test_len (1,)
+	 FOLD 6
+		 train:val:test = 155271:27372:2110 = 0.8404247833594042:0.14815456311940808:0.011420653521187749
+		 Number of train examples per class: 	(array([0., 1.]), array([135694,  19577]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23545,  3827]))
+		 Number of test examples per class: 	(array([0.]), array([2110]))
+		 Total time taken: 187.56801176071167 s
+====================================================================================================
+X_train (152282, 16, 12)
+X_val (26845, 16, 12)
+Y_train (152282, 16, 1)
+Y_val (26845, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5626, 16, 12)
+Y_test (5626, 16, 1)
+test_len (1,)
+	 FOLD 7
+		 train:val:test = 152282:26845:5626 = 0.8242464263097217:0.14530210605511143:0.030451467635166953
+		 Number of train examples per class: 	(array([0., 1.]), array([132309,  19973]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23414,  3431]))
+		 Number of test examples per class: 	(array([0.]), array([5626]))
+		 Total time taken: 214.65768480300903 s
+====================================================================================================
+X_train (152563, 16, 12)
+X_val (26894, 16, 12)
+Y_train (152563, 16, 1)
+Y_val (26894, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5296, 16, 12)
+Y_test (5296, 16, 1)
+test_len (1,)
+	 FOLD 8
+		 train:val:test = 152563:26894:5296 = 0.8257673759018798:0.145567325023139:0.02866529907498119
+		 Number of train examples per class: 	(array([0., 1.]), array([132684,  19879]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23369,  3525]))
+		 Number of test examples per class: 	(array([0.]), array([5296]))
+		 Total time taken: 241.22888278961182 s
+====================================================================================================
+X_train (152106, 16, 12)
+X_val (26814, 16, 12)
+Y_train (152106, 16, 1)
+Y_val (26814, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5833, 16, 12)
+Y_test (5833, 16, 1)
+test_len (1,)
+	 FOLD 9
+		 train:val:test = 152106:26814:5833 = 0.8232938030776226:0.14513431446309397:0.031571882459283475
+		 Number of train examples per class: 	(array([0., 1.]), array([133963,  18143]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22495,  4319]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4891,  942]))
+		 Total time taken: 267.85013818740845 s
+====================================================================================================
+X_train (153947, 16, 12)
+X_val (27138, 16, 12)
+Y_train (153947, 16, 1)
+Y_val (27138, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3668, 16, 12)
+Y_test (3668, 16, 1)
+test_len (1,)
+	 FOLD 10
+		 train:val:test = 153947:27138:3668 = 0.8332584585906588:0.14688800723127635:0.019853534178064767
+		 Number of train examples per class: 	(array([0., 1.]), array([135435,  18512]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23482,  3656]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2432, 1236]))
+		 Total time taken: 295.6936640739441 s
+====================================================================================================
+X_train (154539, 16, 12)
+X_val (27243, 16, 12)
+Y_train (154539, 16, 1)
+Y_val (27243, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2971, 16, 12)
+Y_test (2971, 16, 1)
+test_len (1,)
+	 FOLD 11
+		 train:val:test = 154539:27243:2971 = 0.8364627367349922:0.14745633359133545:0.016080929673672417
+		 Number of train examples per class: 	(array([0., 1.]), array([135175,  19364]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24010,  3233]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2164,  807]))
+		 Total time taken: 323.34169936180115 s
+====================================================================================================
+X_train (155225, 16, 12)
+X_val (27364, 16, 12)
+Y_train (155225, 16, 1)
+Y_val (27364, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2164, 16, 12)
+Y_test (2164, 16, 1)
+test_len (1,)
+	 FOLD 12
+		 train:val:test = 155225:27364:2164 = 0.8401758022873783:0.14811126206340358:0.011712935649218145
+		 Number of train examples per class: 	(array([0., 1.]), array([136181,  19044]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23029,  4335]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2139,   25]))
+		 Total time taken: 349.43716406822205 s
+====================================================================================================
+X_train (152656, 16, 12)
+X_val (26911, 16, 12)
+Y_train (152656, 16, 1)
+Y_val (26911, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5186, 16, 12)
+Y_test (5186, 16, 1)
+test_len (1,)
+	 FOLD 13
+		 train:val:test = 152656:26911:5186 = 0.8262707506779322:0.14565933976714857:0.02806990955491927
+		 Number of train examples per class: 	(array([0., 1.]), array([133207,  19449]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22956,  3955]))
+		 Number of test examples per class: 	(array([0.]), array([5186]))
+		 Total time taken: 376.19149708747864 s
+====================================================================================================
+X_train (154709, 16, 12)
+X_val (27273, 16, 12)
+Y_train (154709, 16, 1)
+Y_val (27273, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2771, 16, 12)
+Y_test (2771, 16, 1)
+test_len (1,)
+	 FOLD 14
+		 train:val:test = 154709:27273:2771 = 0.8373828841750878:0.14761871255135234:0.014998403273559833
+		 Number of train examples per class: 	(array([0., 1.]), array([134927,  19782]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23675,  3598]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2747,   24]))
+		 Total time taken: 403.5746805667877 s
+====================================================================================================
+
+X_train (153730, 16, 12)
+X_val (27100, 16, 12)
+Y_train (153730, 16, 1)
+Y_val (27100, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3923, 16, 12)
+Y_test (3923, 16, 1)
+test_len (1,)
+	 FOLD 15
+		 train:val:test = 153730:27100:3923 = 0.8320839174465368:0.14668232721525495:0.021233755338208312
+		 Number of train examples per class: 	(array([0., 1.]), array([133718,  20012]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24154,  2946]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3477,  446]))
+		 Total time taken: 431.45957684516907 s
+====================================================================================================
+X_train (153768, 16, 12)
+X_val (27107, 16, 12)
+Y_train (153768, 16, 1)
+Y_val (27107, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3878, 16, 12)
+Y_test (3878, 16, 1)
+test_len (1,)
+	 FOLD 16
+		 train:val:test = 153768:27107:3878 = 0.8322895974625582:0.1467202156392589:0.02099018689818298
+		 Number of train examples per class: 	(array([0., 1.]), array([133983,  19785]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23938,  3169]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3428,  450]))
+		 Total time taken: 457.376615524292 s
+====================================================================================================
+X_train (150553, 16, 12)
+X_val (26539, 16, 12)
+Y_train (150553, 16, 1)
+Y_val (26539, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (7661, 16, 12)
+Y_test (7661, 16, 1)
+test_len (1,)
+	 FOLD 17
+		 train:val:test = 150553:26539:7661 = 0.8148879855807484:0.14364584066293917:0.04146617375631248
+		 Number of train examples per class: 	(array([0., 1.]), array([130471,  20082]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23516,  3023]))
+		 Number of test examples per class: 	(array([0., 1.]), array([7362,  299]))
+		 Total time taken: 483.7959792613983 s
+====================================================================================================
+X_train (153251, 16, 12)
+X_val (27015, 16, 12)
+Y_train (153251, 16, 1)
+Y_val (27015, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4487, 16, 12)
+Y_test (4487, 16, 1)
+test_len (1,)
+	 FOLD 18
+		 train:val:test = 153251:27015:4487 = 0.8294912667182671:0.14622225349520712:0.024286479786525796
+		 Number of train examples per class: 	(array([0., 1.]), array([133641,  19610]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23221,  3794]))
+		 Number of test examples per class: 	(array([0.]), array([4487]))
+		 Total time taken: 510.0687470436096 s
+====================================================================================================
+X_train (153636, 16, 12)
+X_val (27084, 16, 12)
+Y_train (153636, 16, 1)
+Y_val (27084, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4033, 16, 12)
+Y_test (4033, 16, 1)
+test_len (1,)
+	 FOLD 19
+		 train:val:test = 153636:27084:4033 = 0.8315751300384838:0.14659572510324595:0.02182914485827023
+		 Number of train examples per class: 	(array([0., 1.]), array([134221,  19415]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23502,  3582]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3626,  407]))
+		 Total time taken: 537.9247174263 s
+====================================================================================================
+X_train (151520, 16, 12)
+X_val (26710, 16, 12)
+Y_train (151520, 16, 1)
+Y_val (26710, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (6523, 16, 12)
+Y_test (6523, 16, 1)
+test_len (1,)
+	 FOLD 20
+		 train:val:test = 151520:26710:6523 = 0.8201220007252927:0.14457140073503544:0.035306598539671885
+		 Number of train examples per class: 	(array([0., 1.]), array([132074,  19446]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23276,  3434]))
+		 Number of test examples per class: 	(array([0., 1.]), array([5999,  524]))
+		 Total time taken: 564.2769861221313 s
+====================================================================================================
+X_train (153461, 16, 12)
+X_val (27053, 16, 12)
+Y_train (153461, 16, 1)
+Y_val (27053, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4239, 16, 12)
+Y_test (4239, 16, 1)
+test_len (1,)
+	 FOLD 21
+		 train:val:test = 153461:27053:4239 = 0.8306279194383853:0.14642793351122851:0.02294414705038619
+		 Number of train examples per class: 	(array([0., 1.]), array([133971,  19490]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23705,  3348]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3673,  566]))
+		 Total time taken: 590.5834224224091 s
+====================================================================================================
+X_train (153645, 16, 12)
+X_val (27085, 16, 12)
+Y_train (153645, 16, 1)
+Y_val (27085, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4023, 16, 12)
+Y_test (4023, 16, 1)
+test_len (1,)
+	 FOLD 22
+		 train:val:test = 153645:27085:4023 = 0.8316238437264889:0.14660113773524652:0.021775018538264603
+		 Number of train examples per class: 	(array([0., 1.]), array([134515,  19130]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23619,  3466]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3215,  808]))
+		 Total time taken: 617.9554078578949 s
+====================================================================================================
+X_train (155314, 16, 12)
+X_val (27379, 16, 12)
+Y_train (155314, 16, 1)
+Y_val (27379, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2060, 16, 12)
+Y_test (2060, 16, 1)
+test_len (1,)
+	 FOLD 23
+		 train:val:test = 155314:27379:2060 = 0.8406575265354284:0.148192451543412:0.011150021921159603
+		 Number of train examples per class: 	(array([0., 1.]), array([137246,  18068]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23274,  4105]))
+		 Number of test examples per class: 	(array([0., 1.]), array([ 829, 1231]))
+		 Total time taken: 645.6789164543152 s
+====================================================================================================
+X_train (154555, 16, 12)
+X_val (27246, 16, 12)
+Y_train (154555, 16, 1)
+Y_val (27246, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2952, 16, 12)
+Y_test (2952, 16, 1)
+test_len (1,)
+	 FOLD 24
+		 train:val:test = 154555:27246:2952 = 0.8365493388470011:0.14747257148733714:0.01597808966566172
+		 Number of train examples per class: 	(array([0., 1.]), array([135807,  18748]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23816,  3430]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1726, 1226]))
+		 Total time taken: 672.3106195926666 s
+====================================================================================================
+X_train (154437, 16, 12)
+X_val (27225, 16, 12)
+Y_train (154437, 16, 1)
+Y_val (27225, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3091, 16, 12)
+Y_test (3091, 16, 1)
+test_len (1,)
+	 FOLD 25
+		 train:val:test = 154437:27225:3091 = 0.8359106482709348:0.14735890621532532:0.016730445513739967
+		 Number of train examples per class: 	(array([0., 1.]), array([135619,  18818]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24274,  2951]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1456, 1635]))
+		 Total time taken: 698.4215981960297 s
+====================================================================================================
+X_train (155030, 16, 12)
+X_val (27330, 16, 12)
+Y_train (155030, 16, 1)
+Y_val (27330, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2393, 16, 12)
+Y_test (2393, 16, 1)
+test_len (1,)
+	 FOLD 26
+		 train:val:test = 155030:27330:2393 = 0.8391203390472685:0.14792723257538443:0.012952428377347053
+		 Number of train examples per class: 	(array([0., 1.]), array([136078,  18952]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23282,  4048]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1989,  404]))
+		 Total time taken: 725.7425739765167 s
+====================================================================================================
+X_train (155055, 16, 12)
+X_val (27334, 16, 12)
+Y_train (155055, 16, 1)
+Y_val (27334, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2364, 16, 12)
+Y_test (2364, 16, 1)
+test_len (1,)
+
+	 FOLD 27
+		 train:val:test = 155055:27334:2364 = 0.8392556548472826:0.1479488831033867:0.012795462049330728
+		 Number of train examples per class: 	(array([0., 1.]), array([135598,  19457]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24701,  2633]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1050, 1314]))
+		 Total time taken: 754.4847023487091 s
+====================================================================================================
+X_train (153936, 16, 12)
+X_val (27136, 16, 12)
+Y_train (153936, 16, 1)
+Y_val (27136, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3681, 16, 12)
+Y_test (3681, 16, 1)
+test_len (1,)
+	 FOLD 28
+		 train:val:test = 153936:27136:3681 = 0.8331989196386527:0.14687718196727523:0.019923898394072086
+		 Number of train examples per class: 	(array([0., 1.]), array([134716,  19220]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23885,  3251]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2748,  933]))
+		 Total time taken: 781.2716691493988 s
+====================================================================================================
+X_train (150934, 16, 12)
+X_val (26607, 16, 12)
+Y_train (150934, 16, 1)
+Y_val (26607, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (7212, 16, 12)
+Y_test (7212, 16, 1)
+test_len (1,)
+	 FOLD 29
+		 train:val:test = 150934:26607:7212 = 0.8169501983729628:0.14401389963897746:0.039035901988059736
+		 Number of train examples per class: 	(array([0., 1.]), array([131614,  19320]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22541,  4066]))
+		 Number of test examples per class: 	(array([0., 1.]), array([7194,   18]))
+		 Total time taken: 806.6961734294891 s
+====================================================================================================
+X_train (154961, 16, 12)
+X_val (27317, 16, 12)
+Y_train (154961, 16, 1)
+Y_val (27317, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2475, 16, 12)
+Y_test (2475, 16, 1)
+test_len (1,)
+	 FOLD 30
+		 train:val:test = 154961:27317:2475 = 0.8387468674392297:0.1478568683593771:0.013396264201393211
+		 Number of train examples per class: 	(array([0., 1.]), array([136312,  18649]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22654,  4663]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2383,   92]))
+		 Total time taken: 834.9824488162994 s
+====================================================================================================
+X_train (153707, 16, 12)
+X_val (27096, 16, 12)
+Y_train (153707, 16, 1)
+Y_val (27096, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3950, 16, 12)
+Y_test (3950, 16, 1)
+test_len (1,)
+	 FOLD 31
+		 train:val:test = 153707:27096:3950 = 0.8319594269105238:0.14666067668725272:0.02137989640222351
+		 Number of train examples per class: 	(array([0., 1.]), array([133969,  19738]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23557,  3539]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3823,  127]))
+		 Total time taken: 862.1237556934357 s
+====================================================================================================
+X_train (153382, 16, 12)
+X_val (27039, 16, 12)
+Y_train (153382, 16, 1)
+Y_val (27039, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4332, 16, 12)
+Y_test (4332, 16, 1)
+test_len (1,)
+	 FOLD 32
+		 train:val:test = 153382:27039:4332 = 0.8302003215103408:0.14635215666322063:0.02344752182643854
+		 Number of train examples per class: 	(array([0., 1.]), array([133410,  19972]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23932,  3107]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4007,  325]))
+		 Total time taken: 890.7361385822296 s
+====================================================================================================
+X_train (153682, 16, 12)
+X_val (27091, 16, 12)
+Y_train (153682, 16, 1)
+Y_val (27091, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3980, 16, 12)
+Y_test (3980, 16, 1)
+test_len (1,)
+	 FOLD 33
+		 train:val:test = 153682:27091:3980 = 0.8318241111105097:0.1466336135272499:0.021542275362240397
+		 Number of train examples per class: 	(array([0., 1.]), array([134399,  19283]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24269,  2822]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2681, 1299]))
+		 Total time taken: 916.0271813869476 s
+====================================================================================================
+X_train (152435, 16, 12)
+X_val (26872, 16, 12)
+Y_train (152435, 16, 1)
+Y_val (26872, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5446, 16, 12)
+Y_test (5446, 16, 1)
+test_len (1,)
+	 FOLD 34
+		 train:val:test = 152435:26872:5446 = 0.8250745590058077:0.14544824711912663:0.02947719387506563
+		 Number of train examples per class: 	(array([0., 1.]), array([132988,  19447]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22915,  3957]))
+		 Number of test examples per class: 	(array([0.]), array([5446]))
+		 Total time taken: 944.505490064621 s
+====================================================================================================
+X_train (154896, 16, 12)
+X_val (27306, 16, 12)
+Y_train (154896, 16, 1)
+Y_val (27306, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2551, 16, 12)
+Y_test (2551, 16, 1)
+test_len (1,)
+	 FOLD 35
+		 train:val:test = 154896:27306:2551 = 0.838395046359193:0.14779732940737092:0.013807624233435994
+		 Number of train examples per class: 	(array([0., 1.]), array([136148,  18748]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22650,  4656]))
+		 Number of test examples per class: 	(array([0.]), array([2551]))
+		 Total time taken: 972.1357038021088 s
+====================================================================================================
+X_train (153398, 16, 12)
+X_val (27041, 16, 12)
+Y_train (153398, 16, 1)
+Y_val (27041, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4314, 16, 12)
+Y_test (4314, 16, 1)
+test_len (1,)
+	 FOLD 36
+		 train:val:test = 153398:27041:4314 = 0.8302869236223498:0.14636298192722175:0.023350094450428408
+		 Number of train examples per class: 	(array([0., 1.]), array([133396,  20002]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23639,  3402]))
+		 Number of test examples per class: 	(array([0.]), array([4314]))
+		 Total time taken: 1000.6159098148346 s
+====================================================================================================
+X_train (152706, 16, 12)
+X_val (26919, 16, 12)
+Y_train (152706, 16, 1)
+Y_val (26919, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5128, 16, 12)
+Y_test (5128, 16, 1)
+test_len (1,)
+	 FOLD 37
+		 train:val:test = 152706:26919:5128 = 0.8265413822779603:0.14570264082315307:0.027755976898886623
+		 Number of train examples per class: 	(array([0., 1.]), array([134285,  18421]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23843,  3076]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3221, 1907]))
+		 Total time taken: 1026.009093284607 s
+====================================================================================================
+X_train (153292, 16, 12)
+X_val (27023, 16, 12)
+Y_train (153292, 16, 1)
+Y_val (27023, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4438, 16, 12)
+Y_test (4438, 16, 1)
+test_len (1,)
+	 FOLD 38
+		 train:val:test = 153292:27023:4438 = 0.8297131846302902:0.14626555455121162:0.024021260818498213
+		 Number of train examples per class: 	(array([0., 1.]), array([133641,  19651]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23270,  3753]))
+		 Number of test examples per class: 	(array([0.]), array([4438]))
+		 Total time taken: 1054.2555203437805 s
+====================================================================================================
+X_train (153483, 16, 12)
+X_val (27057, 16, 12)
+Y_train (153483, 16, 1)
+Y_val (27057, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4213, 16, 12)
+Y_test (4213, 16, 1)
+test_len (1,)
+	 FOLD 39
+		 train:val:test = 153483:27057:4213 = 0.8307469973423977:0.14644958403923075:0.022803418618371554
+		 Number of train examples per class: 	(array([0., 1.]), array([133563,  19920]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23573,  3484]))
+		 Number of test examples per class: 	(array([0.]), array([4213]))
+		 Total time taken: 1081.8336882591248 s
+====================================================================================================
+
+X_train (154022, 16, 12)
+X_val (27152, 16, 12)
+Y_train (154022, 16, 1)
+Y_val (27152, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3579, 16, 12)
+Y_test (3579, 16, 1)
+test_len (1,)
+	 FOLD 40
+		 train:val:test = 154022:27152:3579 = 0.8336644059907011:0.14696378407928423:0.01937180993001467
+		 Number of train examples per class: 	(array([0., 1.]), array([134117,  19905]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23653,  3499]))
+		 Number of test examples per class: 	(array([0.]), array([3579]))
+		 Total time taken: 1109.4792501926422 s
+====================================================================================================
+X_train (152637, 16, 12)
+X_val (26907, 16, 12)
+Y_train (152637, 16, 1)
+Y_val (26907, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5209, 16, 12)
+Y_test (5209, 16, 1)
+test_len (1,)
+	 FOLD 41
+		 train:val:test = 152637:26907:5209 = 0.8261679106699215:0.14563768923914633:0.028194400090932218
+		 Number of train examples per class: 	(array([0., 1.]), array([132962,  19675]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23906,  3001]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4481,  728]))
+		 Total time taken: 1135.0445530414581 s
+====================================================================================================
+X_train (154170, 16, 12)
+X_val (27178, 16, 12)
+Y_train (154170, 16, 1)
+Y_val (27178, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3405, 16, 12)
+Y_test (3405, 16, 1)
+test_len (1,)
+	 FOLD 42
+		 train:val:test = 154170:27178:3405 = 0.8344654755267844:0.14710451251129886:0.018430011961916723
+		 Number of train examples per class: 	(array([0., 1.]), array([135421,  18749]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23680,  3498]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2248, 1157]))
+		 Total time taken: 1163.378807067871 s
+====================================================================================================
+X_train (154306, 16, 12)
+X_val (27202, 16, 12)
+Y_train (154306, 16, 1)
+Y_val (27202, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3245, 16, 12)
+Y_test (3245, 16, 1)
+test_len (1,)
+	 FOLD 43
+		 train:val:test = 154306:27202:3245 = 0.8352015934788609:0.1472344156793124:0.017563990841826655
+		 Number of train examples per class: 	(array([0., 1.]), array([134227,  20079]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24322,  2880]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2800,  445]))
+		 Total time taken: 1191.161521434784 s
+====================================================================================================
+X_train (152701, 16, 12)
+X_val (26919, 16, 12)
+Y_train (152701, 16, 1)
+Y_val (26919, 16, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5133, 16, 12)
+Y_test (5133, 16, 1)
+test_len (1,)
+	 FOLD 44
+		 train:val:test = 152701:26919:5133 = 0.8265143191179575:0.14570264082315307:0.027783040058889437
+		 Number of train examples per class: 	(array([0., 1.]), array([133335,  19366]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23123,  3796]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4891,  242]))
+		 Total time taken: 1220.767415046692 s
+====================================================================================================
+Selected features: 
+	['diff_ pose_Tx', 'diff_ pose_Ty', 'diff_ pose_Tz', 'diff2_ pose_Tx', 'diff2_ pose_Ty', 'diff2_ pose_Tz', 'diff_ pose_Rx', 'diff_ pose_Ry', 'diff_ pose_Rz', 'diff2_ pose_Rx', 'diff2_ pose_Ry', 'diff2_ pose_Rz']
+X_train (154430, 32, 12)
+X_val (27224, 32, 12)
+Y_train (154430, 32, 1)
+Y_val (27224, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3099, 32, 12)
+Y_test (3099, 32, 1)
+test_len (1,)
+	 FOLD 0
+		 train:val:test = 154430:27224:3099 = 0.8358727598469308:0.14735349358332475:0.01677374656974447
+		 Number of train examples per class: 	(array([0., 1.]), array([134870,  19560]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23405,  3819]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3074,   25]))
+		 Total time taken: 26.749356508255005 s
+====================================================================================================
+X_train (154988, 32, 12)
+X_val (27322, 32, 12)
+Y_train (154988, 32, 1)
+Y_val (27322, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2443, 32, 12)
+Y_test (2443, 32, 1)
+test_len (1,)
+	 FOLD 1
+		 train:val:test = 154988:27322:2443 = 0.8388930085032449:0.14788393151937992:0.013223059977375199
+		 Number of train examples per class: 	(array([0., 1.]), array([135807,  19181]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23798,  3524]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1744,  699]))
+		 Total time taken: 55.98447513580322 s
+====================================================================================================
+X_train (153589, 32, 12)
+X_val (27075, 32, 12)
+Y_train (153589, 32, 1)
+Y_val (27075, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4089, 32, 12)
+Y_test (4089, 32, 1)
+test_len (1,)
+	 FOLD 2
+		 train:val:test = 153589:27075:4089 = 0.8313207363344574:0.1465470114152409:0.022132252250301753
+		 Number of train examples per class: 	(array([0., 1.]), array([133702,  19887]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23869,  3206]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3778,  311]))
+		 Total time taken: 84.20949482917786 s
+====================================================================================================
+X_train (153487, 32, 12)
+X_val (27057, 32, 12)
+Y_train (153487, 32, 1)
+Y_val (27057, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4209, 32, 12)
+Y_test (4209, 32, 1)
+test_len (1,)
+	 FOLD 3
+		 train:val:test = 153487:27057:4209 = 0.8307686478704:0.14644958403923075:0.022781768090369303
+		 Number of train examples per class: 	(array([0., 1.]), array([134315,  19172]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22925,  4132]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4109,  100]))
+		 Total time taken: 112.51251363754272 s
+====================================================================================================
+X_train (152445, 32, 12)
+X_val (26873, 32, 12)
+Y_train (152445, 32, 1)
+Y_val (26873, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5435, 32, 12)
+Y_test (5435, 32, 1)
+test_len (1,)
+	 FOLD 4
+		 train:val:test = 152445:26873:5435 = 0.8251286853258134:0.14545365975112717:0.029417654923059436
+		 Number of train examples per class: 	(array([0., 1.]), array([133832,  18613]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23845,  3028]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3672, 1763]))
+		 Total time taken: 138.7352557182312 s
+====================================================================================================
+X_train (152020, 32, 12)
+X_val (26798, 32, 12)
+Y_train (152020, 32, 1)
+Y_val (26798, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5935, 32, 12)
+Y_test (5935, 32, 1)
+test_len (1,)
+	 FOLD 5
+		 train:val:test = 152020:26798:5935 = 0.8228283167255741:0.14504771235108496:0.03212397092334089
+		 Number of train examples per class: 	(array([0., 1.]), array([133625,  18395]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22678,  4120]))
+		 Number of test examples per class: 	(array([0., 1.]), array([5046,  889]))
+		 Total time taken: 168.1348111629486 s
+====================================================================================================
+X_train (155271, 32, 12)
+X_val (27372, 32, 12)
+Y_train (155271, 32, 1)
+Y_val (27372, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2110, 32, 12)
+Y_test (2110, 32, 1)
+test_len (1,)
+	 FOLD 6
+		 train:val:test = 155271:27372:2110 = 0.8404247833594042:0.14815456311940808:0.011420653521187749
+		 Number of train examples per class: 	(array([0., 1.]), array([135168,  20103]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24071,  3301]))
+		 Number of test examples per class: 	(array([0.]), array([2110]))
+		 Total time taken: 196.06495189666748 s
+====================================================================================================
+
+X_train (152282, 32, 12)
+X_val (26845, 32, 12)
+Y_train (152282, 32, 1)
+Y_val (26845, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5626, 32, 12)
+Y_test (5626, 32, 1)
+test_len (1,)
+	 FOLD 7
+		 train:val:test = 152282:26845:5626 = 0.8242464263097217:0.14530210605511143:0.030451467635166953
+		 Number of train examples per class: 	(array([0., 1.]), array([132771,  19511]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22952,  3893]))
+		 Number of test examples per class: 	(array([0.]), array([5626]))
+		 Total time taken: 224.60578775405884 s
+====================================================================================================
+X_train (152563, 32, 12)
+X_val (26894, 32, 12)
+Y_train (152563, 32, 1)
+Y_val (26894, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5296, 32, 12)
+Y_test (5296, 32, 1)
+test_len (1,)
+	 FOLD 8
+		 train:val:test = 152563:26894:5296 = 0.8257673759018798:0.145567325023139:0.02866529907498119
+		 Number of train examples per class: 	(array([0., 1.]), array([132904,  19659]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23149,  3745]))
+		 Number of test examples per class: 	(array([0.]), array([5296]))
+		 Total time taken: 250.0295865535736 s
+====================================================================================================
+X_train (152106, 32, 12)
+X_val (26814, 32, 12)
+Y_train (152106, 32, 1)
+Y_val (26814, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5833, 32, 12)
+Y_test (5833, 32, 1)
+test_len (1,)
+	 FOLD 9
+		 train:val:test = 152106:26814:5833 = 0.8232938030776226:0.14513431446309397:0.031571882459283475
+		 Number of train examples per class: 	(array([0., 1.]), array([133204,  18902]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23254,  3560]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4891,  942]))
+		 Total time taken: 278.74880862236023 s
+====================================================================================================
+X_train (153947, 32, 12)
+X_val (27138, 32, 12)
+Y_train (153947, 32, 1)
+Y_val (27138, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3668, 32, 12)
+Y_test (3668, 32, 1)
+test_len (1,)
+	 FOLD 10
+		 train:val:test = 153947:27138:3668 = 0.8332584585906588:0.14688800723127635:0.019853534178064767
+		 Number of train examples per class: 	(array([0., 1.]), array([134877,  19070]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24040,  3098]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2432, 1236]))
+		 Total time taken: 306.74062180519104 s
+====================================================================================================
+X_train (154539, 32, 12)
+X_val (27243, 32, 12)
+Y_train (154539, 32, 1)
+Y_val (27243, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2971, 32, 12)
+Y_test (2971, 32, 1)
+test_len (1,)
+	 FOLD 11
+		 train:val:test = 154539:27243:2971 = 0.8364627367349922:0.14745633359133545:0.016080929673672417
+		 Number of train examples per class: 	(array([0., 1.]), array([135310,  19229]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23875,  3368]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2164,  807]))
+		 Total time taken: 335.25815987586975 s
+====================================================================================================
+X_train (155225, 32, 12)
+X_val (27364, 32, 12)
+Y_train (155225, 32, 1)
+Y_val (27364, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2164, 32, 12)
+Y_test (2164, 32, 1)
+test_len (1,)
+	 FOLD 12
+		 train:val:test = 155225:27364:2164 = 0.8401758022873783:0.14811126206340358:0.011712935649218145
+		 Number of train examples per class: 	(array([0., 1.]), array([136007,  19218]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23203,  4161]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2139,   25]))
+		 Total time taken: 360.96499466896057 s
+====================================================================================================
+X_train (152656, 32, 12)
+X_val (26911, 32, 12)
+Y_train (152656, 32, 1)
+Y_val (26911, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5186, 32, 12)
+Y_test (5186, 32, 1)
+test_len (1,)
+	 FOLD 13
+		 train:val:test = 152656:26911:5186 = 0.8262707506779322:0.14565933976714857:0.02806990955491927
+		 Number of train examples per class: 	(array([0., 1.]), array([132466,  20190]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23697,  3214]))
+		 Number of test examples per class: 	(array([0.]), array([5186]))
+		 Total time taken: 390.17913579940796 s
+====================================================================================================
+X_train (154709, 32, 12)
+X_val (27273, 32, 12)
+Y_train (154709, 32, 1)
+Y_val (27273, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2771, 32, 12)
+Y_test (2771, 32, 1)
+test_len (1,)
+	 FOLD 14
+		 train:val:test = 154709:27273:2771 = 0.8373828841750878:0.14761871255135234:0.014998403273559833
+		 Number of train examples per class: 	(array([0., 1.]), array([135161,  19548]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23441,  3832]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2747,   24]))
+		 Total time taken: 419.1454486846924 s
+====================================================================================================
+X_train (153730, 32, 12)
+X_val (27100, 32, 12)
+Y_train (153730, 32, 1)
+Y_val (27100, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3923, 32, 12)
+Y_test (3923, 32, 1)
+test_len (1,)
+	 FOLD 15
+		 train:val:test = 153730:27100:3923 = 0.8320839174465368:0.14668232721525495:0.021233755338208312
+		 Number of train examples per class: 	(array([0., 1.]), array([133518,  20212]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24354,  2746]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3477,  446]))
+		 Total time taken: 446.77804374694824 s
+====================================================================================================
+X_train (153768, 32, 12)
+X_val (27107, 32, 12)
+Y_train (153768, 32, 1)
+Y_val (27107, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3878, 32, 12)
+Y_test (3878, 32, 1)
+test_len (1,)
+	 FOLD 16
+		 train:val:test = 153768:27107:3878 = 0.8322895974625582:0.1467202156392589:0.02099018689818298
+		 Number of train examples per class: 	(array([0., 1.]), array([134460,  19308]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23461,  3646]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3428,  450]))
+		 Total time taken: 473.4628586769104 s
+====================================================================================================
+X_train (150553, 32, 12)
+X_val (26539, 32, 12)
+Y_train (150553, 32, 1)
+Y_val (26539, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (7661, 32, 12)
+Y_test (7661, 32, 1)
+test_len (1,)
+	 FOLD 17
+		 train:val:test = 150553:26539:7661 = 0.8148879855807484:0.14364584066293917:0.04146617375631248
+		 Number of train examples per class: 	(array([0., 1.]), array([130375,  20178]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23612,  2927]))
+		 Number of test examples per class: 	(array([0., 1.]), array([7362,  299]))
+		 Total time taken: 501.16931653022766 s
+====================================================================================================
+X_train (153251, 32, 12)
+X_val (27015, 32, 12)
+Y_train (153251, 32, 1)
+Y_val (27015, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4487, 32, 12)
+Y_test (4487, 32, 1)
+test_len (1,)
+	 FOLD 18
+		 train:val:test = 153251:27015:4487 = 0.8294912667182671:0.14622225349520712:0.024286479786525796
+		 Number of train examples per class: 	(array([0., 1.]), array([133849,  19402]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23013,  4002]))
+		 Number of test examples per class: 	(array([0.]), array([4487]))
+		 Total time taken: 528.9252786636353 s
+====================================================================================================
+X_train (153636, 32, 12)
+X_val (27084, 32, 12)
+Y_train (153636, 32, 1)
+Y_val (27084, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4033, 32, 12)
+Y_test (4033, 32, 1)
+test_len (1,)
+
+	 FOLD 19
+		 train:val:test = 153636:27084:4033 = 0.8315751300384838:0.14659572510324595:0.02182914485827023
+		 Number of train examples per class: 	(array([0., 1.]), array([134390,  19246]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23333,  3751]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3626,  407]))
+		 Total time taken: 555.7700531482697 s
+====================================================================================================
+X_train (151520, 32, 12)
+X_val (26710, 32, 12)
+Y_train (151520, 32, 1)
+Y_val (26710, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (6523, 32, 12)
+Y_test (6523, 32, 1)
+test_len (1,)
+	 FOLD 20
+		 train:val:test = 151520:26710:6523 = 0.8201220007252927:0.14457140073503544:0.035306598539671885
+		 Number of train examples per class: 	(array([0., 1.]), array([132106,  19414]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23244,  3466]))
+		 Number of test examples per class: 	(array([0., 1.]), array([5999,  524]))
+		 Total time taken: 582.3590342998505 s
+====================================================================================================
+X_train (153461, 32, 12)
+X_val (27053, 32, 12)
+Y_train (153461, 32, 1)
+Y_val (27053, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4239, 32, 12)
+Y_test (4239, 32, 1)
+test_len (1,)
+	 FOLD 21
+		 train:val:test = 153461:27053:4239 = 0.8306279194383853:0.14642793351122851:0.02294414705038619
+		 Number of train examples per class: 	(array([0., 1.]), array([134419,  19042]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23257,  3796]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3673,  566]))
+		 Total time taken: 610.2828834056854 s
+====================================================================================================
+X_train (153645, 32, 12)
+X_val (27085, 32, 12)
+Y_train (153645, 32, 1)
+Y_val (27085, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4023, 32, 12)
+Y_test (4023, 32, 1)
+test_len (1,)
+	 FOLD 22
+		 train:val:test = 153645:27085:4023 = 0.8316238437264889:0.14660113773524652:0.021775018538264603
+		 Number of train examples per class: 	(array([0., 1.]), array([134603,  19042]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23531,  3554]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3215,  808]))
+		 Total time taken: 638.7104411125183 s
+====================================================================================================
+X_train (155314, 32, 12)
+X_val (27379, 32, 12)
+Y_train (155314, 32, 1)
+Y_val (27379, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2060, 32, 12)
+Y_test (2060, 32, 1)
+test_len (1,)
+	 FOLD 23
+		 train:val:test = 155314:27379:2060 = 0.8406575265354284:0.148192451543412:0.011150021921159603
+		 Number of train examples per class: 	(array([0., 1.]), array([136297,  19017]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24223,  3156]))
+		 Number of test examples per class: 	(array([0., 1.]), array([ 829, 1231]))
+		 Total time taken: 666.2642602920532 s
+====================================================================================================
+X_train (154555, 32, 12)
+X_val (27246, 32, 12)
+Y_train (154555, 32, 1)
+Y_val (27246, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2952, 32, 12)
+Y_test (2952, 32, 1)
+test_len (1,)
+	 FOLD 24
+		 train:val:test = 154555:27246:2952 = 0.8365493388470011:0.14747257148733714:0.01597808966566172
+		 Number of train examples per class: 	(array([0., 1.]), array([135125,  19430]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24498,  2748]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1726, 1226]))
+		 Total time taken: 692.7959637641907 s
+====================================================================================================
+X_train (154437, 32, 12)
+X_val (27225, 32, 12)
+Y_train (154437, 32, 1)
+Y_val (27225, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3091, 32, 12)
+Y_test (3091, 32, 1)
+test_len (1,)
+	 FOLD 25
+		 train:val:test = 154437:27225:3091 = 0.8359106482709348:0.14735890621532532:0.016730445513739967
+		 Number of train examples per class: 	(array([0., 1.]), array([136548,  17889]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23345,  3880]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1456, 1635]))
+		 Total time taken: 721.3558015823364 s
+====================================================================================================
+X_train (155030, 32, 12)
+X_val (27330, 32, 12)
+Y_train (155030, 32, 1)
+Y_val (27330, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2393, 32, 12)
+Y_test (2393, 32, 1)
+test_len (1,)
+	 FOLD 26
+		 train:val:test = 155030:27330:2393 = 0.8391203390472685:0.14792723257538443:0.012952428377347053
+		 Number of train examples per class: 	(array([0., 1.]), array([136111,  18919]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23249,  4081]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1989,  404]))
+		 Total time taken: 749.7377598285675 s
+====================================================================================================
+X_train (155055, 32, 12)
+X_val (27334, 32, 12)
+Y_train (155055, 32, 1)
+Y_val (27334, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2364, 32, 12)
+Y_test (2364, 32, 1)
+test_len (1,)
+	 FOLD 27
+		 train:val:test = 155055:27334:2364 = 0.8392556548472826:0.1479488831033867:0.012795462049330728
+		 Number of train examples per class: 	(array([0., 1.]), array([136341,  18714]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23958,  3376]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1050, 1314]))
+		 Total time taken: 776.9708960056305 s
+====================================================================================================
+X_train (153936, 32, 12)
+X_val (27136, 32, 12)
+Y_train (153936, 32, 1)
+Y_val (27136, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3681, 32, 12)
+Y_test (3681, 32, 1)
+test_len (1,)
+	 FOLD 28
+		 train:val:test = 153936:27136:3681 = 0.8331989196386527:0.14687718196727523:0.019923898394072086
+		 Number of train examples per class: 	(array([0., 1.]), array([135071,  18865]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23530,  3606]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2748,  933]))
+		 Total time taken: 804.1174733638763 s
+====================================================================================================
+X_train (150934, 32, 12)
+X_val (26607, 32, 12)
+Y_train (150934, 32, 1)
+Y_val (26607, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (7212, 32, 12)
+Y_test (7212, 32, 1)
+test_len (1,)
+	 FOLD 29
+		 train:val:test = 150934:26607:7212 = 0.8169501983729628:0.14401389963897746:0.039035901988059736
+		 Number of train examples per class: 	(array([0., 1.]), array([131785,  19149]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22370,  4237]))
+		 Number of test examples per class: 	(array([0., 1.]), array([7194,   18]))
+		 Total time taken: 832.5930545330048 s
+====================================================================================================
+X_train (154961, 32, 12)
+X_val (27317, 32, 12)
+Y_train (154961, 32, 1)
+Y_val (27317, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2475, 32, 12)
+Y_test (2475, 32, 1)
+test_len (1,)
+	 FOLD 30
+		 train:val:test = 154961:27317:2475 = 0.8387468674392297:0.1478568683593771:0.013396264201393211
+		 Number of train examples per class: 	(array([0., 1.]), array([135360,  19601]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23606,  3711]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2383,   92]))
+		 Total time taken: 861.7883501052856 s
+====================================================================================================
+X_train (153707, 32, 12)
+X_val (27096, 32, 12)
+Y_train (153707, 32, 1)
+Y_val (27096, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3950, 32, 12)
+Y_test (3950, 32, 1)
+test_len (1,)
+	 FOLD 31
+		 train:val:test = 153707:27096:3950 = 0.8319594269105238:0.14666067668725272:0.02137989640222351
+		 Number of train examples per class: 	(array([0., 1.]), array([133461,  20246]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24065,  3031]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3823,  127]))
+		 Total time taken: 889.0395703315735 s
+====================================================================================================
+
+X_train (153382, 32, 12)
+X_val (27039, 32, 12)
+Y_train (153382, 32, 1)
+Y_val (27039, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4332, 32, 12)
+Y_test (4332, 32, 1)
+test_len (1,)
+	 FOLD 32
+		 train:val:test = 153382:27039:4332 = 0.8302003215103408:0.14635215666322063:0.02344752182643854
+		 Number of train examples per class: 	(array([0., 1.]), array([134961,  18421]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22381,  4658]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4007,  325]))
+		 Total time taken: 916.2870762348175 s
+====================================================================================================
+X_train (153682, 32, 12)
+X_val (27091, 32, 12)
+Y_train (153682, 32, 1)
+Y_val (27091, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3980, 32, 12)
+Y_test (3980, 32, 1)
+test_len (1,)
+	 FOLD 33
+		 train:val:test = 153682:27091:3980 = 0.8318241111105097:0.1466336135272499:0.021542275362240397
+		 Number of train examples per class: 	(array([0., 1.]), array([135475,  18207]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23193,  3898]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2681, 1299]))
+		 Total time taken: 944.0114753246307 s
+====================================================================================================
+X_train (152435, 32, 12)
+X_val (26872, 32, 12)
+Y_train (152435, 32, 1)
+Y_val (26872, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5446, 32, 12)
+Y_test (5446, 32, 1)
+test_len (1,)
+	 FOLD 34
+		 train:val:test = 152435:26872:5446 = 0.8250745590058077:0.14544824711912663:0.02947719387506563
+		 Number of train examples per class: 	(array([0., 1.]), array([132097,  20338]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23806,  3066]))
+		 Number of test examples per class: 	(array([0.]), array([5446]))
+		 Total time taken: 972.4904229640961 s
+====================================================================================================
+X_train (154896, 32, 12)
+X_val (27306, 32, 12)
+Y_train (154896, 32, 1)
+Y_val (27306, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2551, 32, 12)
+Y_test (2551, 32, 1)
+test_len (1,)
+	 FOLD 35
+		 train:val:test = 154896:27306:2551 = 0.838395046359193:0.14779732940737092:0.013807624233435994
+		 Number of train examples per class: 	(array([0., 1.]), array([134886,  20010]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23912,  3394]))
+		 Number of test examples per class: 	(array([0.]), array([2551]))
+		 Total time taken: 999.6336340904236 s
+====================================================================================================
+X_train (153398, 32, 12)
+X_val (27041, 32, 12)
+Y_train (153398, 32, 1)
+Y_val (27041, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4314, 32, 12)
+Y_test (4314, 32, 1)
+test_len (1,)
+	 FOLD 36
+		 train:val:test = 153398:27041:4314 = 0.8302869236223498:0.14636298192722175:0.023350094450428408
+		 Number of train examples per class: 	(array([0., 1.]), array([133501,  19897]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23534,  3507]))
+		 Number of test examples per class: 	(array([0.]), array([4314]))
+		 Total time taken: 1026.729905128479 s
+====================================================================================================
+X_train (152706, 32, 12)
+X_val (26919, 32, 12)
+Y_train (152706, 32, 1)
+Y_val (26919, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5128, 32, 12)
+Y_test (5128, 32, 1)
+test_len (1,)
+	 FOLD 37
+		 train:val:test = 152706:26919:5128 = 0.8265413822779603:0.14570264082315307:0.027755976898886623
+		 Number of train examples per class: 	(array([0., 1.]), array([134334,  18372]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23794,  3125]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3221, 1907]))
+		 Total time taken: 1055.0715882778168 s
+====================================================================================================
+X_train (153292, 32, 12)
+X_val (27023, 32, 12)
+Y_train (153292, 32, 1)
+Y_val (27023, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4438, 32, 12)
+Y_test (4438, 32, 1)
+test_len (1,)
+	 FOLD 38
+		 train:val:test = 153292:27023:4438 = 0.8297131846302902:0.14626555455121162:0.024021260818498213
+		 Number of train examples per class: 	(array([0., 1.]), array([132985,  20307]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23926,  3097]))
+		 Number of test examples per class: 	(array([0.]), array([4438]))
+		 Total time taken: 1083.646026134491 s
+====================================================================================================
+X_train (153483, 32, 12)
+X_val (27057, 32, 12)
+Y_train (153483, 32, 1)
+Y_val (27057, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4213, 32, 12)
+Y_test (4213, 32, 1)
+test_len (1,)
+	 FOLD 39
+		 train:val:test = 153483:27057:4213 = 0.8307469973423977:0.14644958403923075:0.022803418618371554
+		 Number of train examples per class: 	(array([0., 1.]), array([134044,  19439]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23092,  3965]))
+		 Number of test examples per class: 	(array([0.]), array([4213]))
+		 Total time taken: 1110.5907320976257 s
+====================================================================================================
+X_train (154022, 32, 12)
+X_val (27152, 32, 12)
+Y_train (154022, 32, 1)
+Y_val (27152, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3579, 32, 12)
+Y_test (3579, 32, 1)
+test_len (1,)
+	 FOLD 40
+		 train:val:test = 154022:27152:3579 = 0.8336644059907011:0.14696378407928423:0.01937180993001467
+		 Number of train examples per class: 	(array([0., 1.]), array([133973,  20049]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23797,  3355]))
+		 Number of test examples per class: 	(array([0.]), array([3579]))
+		 Total time taken: 1137.4818546772003 s
+====================================================================================================
+X_train (152637, 32, 12)
+X_val (26907, 32, 12)
+Y_train (152637, 32, 1)
+Y_val (26907, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5209, 32, 12)
+Y_test (5209, 32, 1)
+test_len (1,)
+	 FOLD 41
+		 train:val:test = 152637:26907:5209 = 0.8261679106699215:0.14563768923914633:0.028194400090932218
+		 Number of train examples per class: 	(array([0., 1.]), array([133397,  19240]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23471,  3436]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4481,  728]))
+		 Total time taken: 1164.7240591049194 s
+====================================================================================================
+X_train (154170, 32, 12)
+X_val (27178, 32, 12)
+Y_train (154170, 32, 1)
+Y_val (27178, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3405, 32, 12)
+Y_test (3405, 32, 1)
+test_len (1,)
+	 FOLD 42
+		 train:val:test = 154170:27178:3405 = 0.8344654755267844:0.14710451251129886:0.018430011961916723
+		 Number of train examples per class: 	(array([0., 1.]), array([135572,  18598]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23529,  3649]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2248, 1157]))
+		 Total time taken: 1192.5314681529999 s
+====================================================================================================
+X_train (154306, 32, 12)
+X_val (27202, 32, 12)
+Y_train (154306, 32, 1)
+Y_val (27202, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3245, 32, 12)
+Y_test (3245, 32, 1)
+test_len (1,)
+	 FOLD 43
+		 train:val:test = 154306:27202:3245 = 0.8352015934788609:0.1472344156793124:0.017563990841826655
+		 Number of train examples per class: 	(array([0., 1.]), array([134750,  19556]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23799,  3403]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2800,  445]))
+		 Total time taken: 1220.1302618980408 s
+====================================================================================================
+X_train (152701, 32, 12)
+X_val (26919, 32, 12)
+Y_train (152701, 32, 1)
+Y_val (26919, 32, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5133, 32, 12)
+Y_test (5133, 32, 1)
+test_len (1,)
+
+	 FOLD 44
+		 train:val:test = 152701:26919:5133 = 0.8265143191179575:0.14570264082315307:0.027783040058889437
+		 Number of train examples per class: 	(array([0., 1.]), array([133270,  19431]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23188,  3731]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4891,  242]))
+		 Total time taken: 1247.1147968769073 s
+====================================================================================================
+Selected features: 
+	['diff_ pose_Tx', 'diff_ pose_Ty', 'diff_ pose_Tz', 'diff2_ pose_Tx', 'diff2_ pose_Ty', 'diff2_ pose_Tz', 'diff_ pose_Rx', 'diff_ pose_Ry', 'diff_ pose_Rz', 'diff2_ pose_Rx', 'diff2_ pose_Ry', 'diff2_ pose_Rz']
+X_train (154430, 64, 12)
+X_val (27224, 64, 12)
+Y_train (154430, 64, 1)
+Y_val (27224, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3099, 64, 12)
+Y_test (3099, 64, 1)
+test_len (1,)
+	 FOLD 0
+		 train:val:test = 154430:27224:3099 = 0.8358727598469308:0.14735349358332475:0.01677374656974447
+		 Number of train examples per class: 	(array([0., 1.]), array([134909,  19521]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23366,  3858]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3074,   25]))
+		 Total time taken: 29.292725801467896 s
+====================================================================================================
+X_train (154988, 64, 12)
+X_val (27322, 64, 12)
+Y_train (154988, 64, 1)
+Y_val (27322, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2443, 64, 12)
+Y_test (2443, 64, 1)
+test_len (1,)
+	 FOLD 1
+		 train:val:test = 154988:27322:2443 = 0.8388930085032449:0.14788393151937992:0.013223059977375199
+		 Number of train examples per class: 	(array([0., 1.]), array([135960,  19028]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23645,  3677]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1744,  699]))
+		 Total time taken: 58.175275802612305 s
+====================================================================================================
+X_train (153589, 64, 12)
+X_val (27075, 64, 12)
+Y_train (153589, 64, 1)
+Y_val (27075, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4089, 64, 12)
+Y_test (4089, 64, 1)
+test_len (1,)
+	 FOLD 2
+		 train:val:test = 153589:27075:4089 = 0.8313207363344574:0.1465470114152409:0.022132252250301753
+		 Number of train examples per class: 	(array([0., 1.]), array([134162,  19427]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23409,  3666]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3778,  311]))
+		 Total time taken: 87.13455891609192 s
+====================================================================================================
+X_train (153487, 64, 12)
+X_val (27057, 64, 12)
+Y_train (153487, 64, 1)
+Y_val (27057, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4209, 64, 12)
+Y_test (4209, 64, 1)
+test_len (1,)
+	 FOLD 3
+		 train:val:test = 153487:27057:4209 = 0.8307686478704:0.14644958403923075:0.022781768090369303
+		 Number of train examples per class: 	(array([0., 1.]), array([134691,  18796]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22549,  4508]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4109,  100]))
+		 Total time taken: 115.73216724395752 s
+====================================================================================================
+X_train (152445, 64, 12)
+X_val (26873, 64, 12)
+Y_train (152445, 64, 1)
+Y_val (26873, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5435, 64, 12)
+Y_test (5435, 64, 1)
+test_len (1,)
+	 FOLD 4
+		 train:val:test = 152445:26873:5435 = 0.8251286853258134:0.14545365975112717:0.029417654923059436
+		 Number of train examples per class: 	(array([0., 1.]), array([133858,  18587]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23819,  3054]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3672, 1763]))
+		 Total time taken: 145.66269898414612 s
+====================================================================================================
+X_train (152020, 64, 12)
+X_val (26798, 64, 12)
+Y_train (152020, 64, 1)
+Y_val (26798, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5935, 64, 12)
+Y_test (5935, 64, 1)
+test_len (1,)
+	 FOLD 5
+		 train:val:test = 152020:26798:5935 = 0.8228283167255741:0.14504771235108496:0.03212397092334089
+		 Number of train examples per class: 	(array([0., 1.]), array([132876,  19144]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23427,  3371]))
+		 Number of test examples per class: 	(array([0., 1.]), array([5046,  889]))
+		 Total time taken: 173.92700576782227 s
+====================================================================================================
+X_train (155271, 64, 12)
+X_val (27372, 64, 12)
+Y_train (155271, 64, 1)
+Y_val (27372, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2110, 64, 12)
+Y_test (2110, 64, 1)
+test_len (1,)
+	 FOLD 6
+		 train:val:test = 155271:27372:2110 = 0.8404247833594042:0.14815456311940808:0.011420653521187749
+		 Number of train examples per class: 	(array([0., 1.]), array([136022,  19249]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23217,  4155]))
+		 Number of test examples per class: 	(array([0.]), array([2110]))
+		 Total time taken: 202.91875791549683 s
+====================================================================================================
+X_train (152282, 64, 12)
+X_val (26845, 64, 12)
+Y_train (152282, 64, 1)
+Y_val (26845, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5626, 64, 12)
+Y_test (5626, 64, 1)
+test_len (1,)
+	 FOLD 7
+		 train:val:test = 152282:26845:5626 = 0.8242464263097217:0.14530210605511143:0.030451467635166953
+		 Number of train examples per class: 	(array([0., 1.]), array([132919,  19363]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22804,  4041]))
+		 Number of test examples per class: 	(array([0.]), array([5626]))
+		 Total time taken: 230.56783771514893 s
+====================================================================================================
+X_train (152563, 64, 12)
+X_val (26894, 64, 12)
+Y_train (152563, 64, 1)
+Y_val (26894, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5296, 64, 12)
+Y_test (5296, 64, 1)
+test_len (1,)
+	 FOLD 8
+		 train:val:test = 152563:26894:5296 = 0.8257673759018798:0.145567325023139:0.02866529907498119
+		 Number of train examples per class: 	(array([0., 1.]), array([132350,  20213]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23703,  3191]))
+		 Number of test examples per class: 	(array([0.]), array([5296]))
+		 Total time taken: 261.7599699497223 s
+====================================================================================================
+X_train (152106, 64, 12)
+X_val (26814, 64, 12)
+Y_train (152106, 64, 1)
+Y_val (26814, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5833, 64, 12)
+Y_test (5833, 64, 1)
+test_len (1,)
+	 FOLD 9
+		 train:val:test = 152106:26814:5833 = 0.8232938030776226:0.14513431446309397:0.031571882459283475
+		 Number of train examples per class: 	(array([0., 1.]), array([133115,  18991]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23343,  3471]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4891,  942]))
+		 Total time taken: 289.9050693511963 s
+====================================================================================================
+X_train (153947, 64, 12)
+X_val (27138, 64, 12)
+Y_train (153947, 64, 1)
+Y_val (27138, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3668, 64, 12)
+Y_test (3668, 64, 1)
+test_len (1,)
+	 FOLD 10
+		 train:val:test = 153947:27138:3668 = 0.8332584585906588:0.14688800723127635:0.019853534178064767
+		 Number of train examples per class: 	(array([0., 1.]), array([135128,  18819]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23789,  3349]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2432, 1236]))
+		 Total time taken: 319.5679693222046 s
+====================================================================================================
+X_train (154539, 64, 12)
+X_val (27243, 64, 12)
+Y_train (154539, 64, 1)
+Y_val (27243, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2971, 64, 12)
+Y_test (2971, 64, 1)
+test_len (1,)
+
+	 FOLD 11
+		 train:val:test = 154539:27243:2971 = 0.8364627367349922:0.14745633359133545:0.016080929673672417
+		 Number of train examples per class: 	(array([0., 1.]), array([134849,  19690]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24336,  2907]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2164,  807]))
+		 Total time taken: 346.7652199268341 s
+====================================================================================================
+X_train (155225, 64, 12)
+X_val (27364, 64, 12)
+Y_train (155225, 64, 1)
+Y_val (27364, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2164, 64, 12)
+Y_test (2164, 64, 1)
+test_len (1,)
+	 FOLD 12
+		 train:val:test = 155225:27364:2164 = 0.8401758022873783:0.14811126206340358:0.011712935649218145
+		 Number of train examples per class: 	(array([0., 1.]), array([135806,  19419]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23404,  3960]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2139,   25]))
+		 Total time taken: 377.5790572166443 s
+====================================================================================================
+X_train (152656, 64, 12)
+X_val (26911, 64, 12)
+Y_train (152656, 64, 1)
+Y_val (26911, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5186, 64, 12)
+Y_test (5186, 64, 1)
+test_len (1,)
+	 FOLD 13
+		 train:val:test = 152656:26911:5186 = 0.8262707506779322:0.14565933976714857:0.02806990955491927
+		 Number of train examples per class: 	(array([0., 1.]), array([133739,  18917]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22424,  4487]))
+		 Number of test examples per class: 	(array([0.]), array([5186]))
+		 Total time taken: 405.74469566345215 s
+====================================================================================================
+X_train (154709, 64, 12)
+X_val (27273, 64, 12)
+Y_train (154709, 64, 1)
+Y_val (27273, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2771, 64, 12)
+Y_test (2771, 64, 1)
+test_len (1,)
+	 FOLD 14
+		 train:val:test = 154709:27273:2771 = 0.8373828841750878:0.14761871255135234:0.014998403273559833
+		 Number of train examples per class: 	(array([0., 1.]), array([135429,  19280]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23173,  4100]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2747,   24]))
+		 Total time taken: 435.6269996166229 s
+====================================================================================================
+X_train (153730, 64, 12)
+X_val (27100, 64, 12)
+Y_train (153730, 64, 1)
+Y_val (27100, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3923, 64, 12)
+Y_test (3923, 64, 1)
+test_len (1,)
+	 FOLD 15
+		 train:val:test = 153730:27100:3923 = 0.8320839174465368:0.14668232721525495:0.021233755338208312
+		 Number of train examples per class: 	(array([0., 1.]), array([134509,  19221]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23363,  3737]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3477,  446]))
+		 Total time taken: 463.54679012298584 s
+====================================================================================================
+X_train (153768, 64, 12)
+X_val (27107, 64, 12)
+Y_train (153768, 64, 1)
+Y_val (27107, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3878, 64, 12)
+Y_test (3878, 64, 1)
+test_len (1,)
+	 FOLD 16
+		 train:val:test = 153768:27107:3878 = 0.8322895974625582:0.1467202156392589:0.02099018689818298
+		 Number of train examples per class: 	(array([0., 1.]), array([134448,  19320]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23473,  3634]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3428,  450]))
+		 Total time taken: 493.3398633003235 s
+====================================================================================================
+X_train (150553, 64, 12)
+X_val (26539, 64, 12)
+Y_train (150553, 64, 1)
+Y_val (26539, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (7661, 64, 12)
+Y_test (7661, 64, 1)
+test_len (1,)
+	 FOLD 17
+		 train:val:test = 150553:26539:7661 = 0.8148879855807484:0.14364584066293917:0.04146617375631248
+		 Number of train examples per class: 	(array([0., 1.]), array([130894,  19659]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23093,  3446]))
+		 Number of test examples per class: 	(array([0., 1.]), array([7362,  299]))
+		 Total time taken: 522.9378941059113 s
+====================================================================================================
+X_train (153251, 64, 12)
+X_val (27015, 64, 12)
+Y_train (153251, 64, 1)
+Y_val (27015, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4487, 64, 12)
+Y_test (4487, 64, 1)
+test_len (1,)
+	 FOLD 18
+		 train:val:test = 153251:27015:4487 = 0.8294912667182671:0.14622225349520712:0.024286479786525796
+		 Number of train examples per class: 	(array([0., 1.]), array([133184,  20067]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23678,  3337]))
+		 Number of test examples per class: 	(array([0.]), array([4487]))
+		 Total time taken: 551.7713837623596 s
+====================================================================================================
+X_train (153636, 64, 12)
+X_val (27084, 64, 12)
+Y_train (153636, 64, 1)
+Y_val (27084, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4033, 64, 12)
+Y_test (4033, 64, 1)
+test_len (1,)
+	 FOLD 19
+		 train:val:test = 153636:27084:4033 = 0.8315751300384838:0.14659572510324595:0.02182914485827023
+		 Number of train examples per class: 	(array([0., 1.]), array([134198,  19438]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23525,  3559]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3626,  407]))
+		 Total time taken: 581.2806317806244 s
+====================================================================================================
+X_train (151520, 64, 12)
+X_val (26710, 64, 12)
+Y_train (151520, 64, 1)
+Y_val (26710, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (6523, 64, 12)
+Y_test (6523, 64, 1)
+test_len (1,)
+	 FOLD 20
+		 train:val:test = 151520:26710:6523 = 0.8201220007252927:0.14457140073503544:0.035306598539671885
+		 Number of train examples per class: 	(array([0., 1.]), array([132354,  19166]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22996,  3714]))
+		 Number of test examples per class: 	(array([0., 1.]), array([5999,  524]))
+		 Total time taken: 610.2056558132172 s
+====================================================================================================
+X_train (153461, 64, 12)
+X_val (27053, 64, 12)
+Y_train (153461, 64, 1)
+Y_val (27053, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4239, 64, 12)
+Y_test (4239, 64, 1)
+test_len (1,)
+	 FOLD 21
+		 train:val:test = 153461:27053:4239 = 0.8306279194383853:0.14642793351122851:0.02294414705038619
+		 Number of train examples per class: 	(array([0., 1.]), array([134080,  19381]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23596,  3457]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3673,  566]))
+		 Total time taken: 640.0160248279572 s
+====================================================================================================
+X_train (153645, 64, 12)
+X_val (27085, 64, 12)
+Y_train (153645, 64, 1)
+Y_val (27085, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4023, 64, 12)
+Y_test (4023, 64, 1)
+test_len (1,)
+	 FOLD 22
+		 train:val:test = 153645:27085:4023 = 0.8316238437264889:0.14660113773524652:0.021775018538264603
+		 Number of train examples per class: 	(array([0., 1.]), array([134882,  18763]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23252,  3833]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3215,  808]))
+		 Total time taken: 667.1120312213898 s
+====================================================================================================
+X_train (155314, 64, 12)
+X_val (27379, 64, 12)
+Y_train (155314, 64, 1)
+Y_val (27379, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2060, 64, 12)
+Y_test (2060, 64, 1)
+test_len (1,)
+	 FOLD 23
+		 train:val:test = 155314:27379:2060 = 0.8406575265354284:0.148192451543412:0.011150021921159603
+		 Number of train examples per class: 	(array([0., 1.]), array([136132,  19182]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24388,  2991]))
+		 Number of test examples per class: 	(array([0., 1.]), array([ 829, 1231]))
+		 Total time taken: 696.7050774097443 s
+====================================================================================================
+
+X_train (154555, 64, 12)
+X_val (27246, 64, 12)
+Y_train (154555, 64, 1)
+Y_val (27246, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2952, 64, 12)
+Y_test (2952, 64, 1)
+test_len (1,)
+	 FOLD 24
+		 train:val:test = 154555:27246:2952 = 0.8365493388470011:0.14747257148733714:0.01597808966566172
+		 Number of train examples per class: 	(array([0., 1.]), array([135606,  18949]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24017,  3229]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1726, 1226]))
+		 Total time taken: 724.6283226013184 s
+====================================================================================================
+X_train (154437, 64, 12)
+X_val (27225, 64, 12)
+Y_train (154437, 64, 1)
+Y_val (27225, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3091, 64, 12)
+Y_test (3091, 64, 1)
+test_len (1,)
+	 FOLD 25
+		 train:val:test = 154437:27225:3091 = 0.8359106482709348:0.14735890621532532:0.016730445513739967
+		 Number of train examples per class: 	(array([0., 1.]), array([135574,  18863]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24319,  2906]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1456, 1635]))
+		 Total time taken: 756.6143684387207 s
+====================================================================================================
+X_train (155030, 64, 12)
+X_val (27330, 64, 12)
+Y_train (155030, 64, 1)
+Y_val (27330, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2393, 64, 12)
+Y_test (2393, 64, 1)
+test_len (1,)
+	 FOLD 26
+		 train:val:test = 155030:27330:2393 = 0.8391203390472685:0.14792723257538443:0.012952428377347053
+		 Number of train examples per class: 	(array([0., 1.]), array([135485,  19545]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23875,  3455]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1989,  404]))
+		 Total time taken: 787.5320091247559 s
+====================================================================================================
+X_train (155055, 64, 12)
+X_val (27334, 64, 12)
+Y_train (155055, 64, 1)
+Y_val (27334, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2364, 64, 12)
+Y_test (2364, 64, 1)
+test_len (1,)
+	 FOLD 27
+		 train:val:test = 155055:27334:2364 = 0.8392556548472826:0.1479488831033867:0.012795462049330728
+		 Number of train examples per class: 	(array([0., 1.]), array([136346,  18709]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23953,  3381]))
+		 Number of test examples per class: 	(array([0., 1.]), array([1050, 1314]))
+		 Total time taken: 817.5937752723694 s
+====================================================================================================
+X_train (153936, 64, 12)
+X_val (27136, 64, 12)
+Y_train (153936, 64, 1)
+Y_val (27136, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3681, 64, 12)
+Y_test (3681, 64, 1)
+test_len (1,)
+	 FOLD 28
+		 train:val:test = 153936:27136:3681 = 0.8331989196386527:0.14687718196727523:0.019923898394072086
+		 Number of train examples per class: 	(array([0., 1.]), array([135076,  18860]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23525,  3611]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2748,  933]))
+		 Total time taken: 846.09246134758 s
+====================================================================================================
+X_train (150934, 64, 12)
+X_val (26607, 64, 12)
+Y_train (150934, 64, 1)
+Y_val (26607, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (7212, 64, 12)
+Y_test (7212, 64, 1)
+test_len (1,)
+	 FOLD 29
+		 train:val:test = 150934:26607:7212 = 0.8169501983729628:0.14401389963897746:0.039035901988059736
+		 Number of train examples per class: 	(array([0., 1.]), array([131155,  19779]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23000,  3607]))
+		 Number of test examples per class: 	(array([0., 1.]), array([7194,   18]))
+		 Total time taken: 876.194333076477 s
+====================================================================================================
+X_train (154961, 64, 12)
+X_val (27317, 64, 12)
+Y_train (154961, 64, 1)
+Y_val (27317, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2475, 64, 12)
+Y_test (2475, 64, 1)
+test_len (1,)
+	 FOLD 30
+		 train:val:test = 154961:27317:2475 = 0.8387468674392297:0.1478568683593771:0.013396264201393211
+		 Number of train examples per class: 	(array([0., 1.]), array([136438,  18523]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22528,  4789]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2383,   92]))
+		 Total time taken: 904.216742515564 s
+====================================================================================================
+X_train (153707, 64, 12)
+X_val (27096, 64, 12)
+Y_train (153707, 64, 1)
+Y_val (27096, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3950, 64, 12)
+Y_test (3950, 64, 1)
+test_len (1,)
+	 FOLD 31
+		 train:val:test = 153707:27096:3950 = 0.8319594269105238:0.14666067668725272:0.02137989640222351
+		 Number of train examples per class: 	(array([0., 1.]), array([134993,  18714]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22533,  4563]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3823,  127]))
+		 Total time taken: 934.0864601135254 s
+====================================================================================================
+X_train (153382, 64, 12)
+X_val (27039, 64, 12)
+Y_train (153382, 64, 1)
+Y_val (27039, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4332, 64, 12)
+Y_test (4332, 64, 1)
+test_len (1,)
+	 FOLD 32
+		 train:val:test = 153382:27039:4332 = 0.8302003215103408:0.14635215666322063:0.02344752182643854
+		 Number of train examples per class: 	(array([0., 1.]), array([134611,  18771]))
+		 Number of val examples per class: 	(array([0., 1.]), array([22731,  4308]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4007,  325]))
+		 Total time taken: 962.0995900630951 s
+====================================================================================================
+X_train (153682, 64, 12)
+X_val (27091, 64, 12)
+Y_train (153682, 64, 1)
+Y_val (27091, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3980, 64, 12)
+Y_test (3980, 64, 1)
+test_len (1,)
+	 FOLD 33
+		 train:val:test = 153682:27091:3980 = 0.8318241111105097:0.1466336135272499:0.021542275362240397
+		 Number of train examples per class: 	(array([0., 1.]), array([135120,  18562]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23548,  3543]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2681, 1299]))
+		 Total time taken: 991.5963997840881 s
+====================================================================================================
+X_train (152435, 64, 12)
+X_val (26872, 64, 12)
+Y_train (152435, 64, 1)
+Y_val (26872, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5446, 64, 12)
+Y_test (5446, 64, 1)
+test_len (1,)
+	 FOLD 34
+		 train:val:test = 152435:26872:5446 = 0.8250745590058077:0.14544824711912663:0.02947719387506563
+		 Number of train examples per class: 	(array([0., 1.]), array([132258,  20177]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23645,  3227]))
+		 Number of test examples per class: 	(array([0.]), array([5446]))
+		 Total time taken: 1018.8472054004669 s
+====================================================================================================
+X_train (154896, 64, 12)
+X_val (27306, 64, 12)
+Y_train (154896, 64, 1)
+Y_val (27306, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (2551, 64, 12)
+Y_test (2551, 64, 1)
+test_len (1,)
+	 FOLD 35
+		 train:val:test = 154896:27306:2551 = 0.838395046359193:0.14779732940737092:0.013807624233435994
+		 Number of train examples per class: 	(array([0., 1.]), array([134786,  20110]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24012,  3294]))
+		 Number of test examples per class: 	(array([0.]), array([2551]))
+		 Total time taken: 1048.495615720749 s
+====================================================================================================
+X_train (153398, 64, 12)
+X_val (27041, 64, 12)
+Y_train (153398, 64, 1)
+Y_val (27041, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4314, 64, 12)
+Y_test (4314, 64, 1)
+test_len (1,)
+
+	 FOLD 36
+		 train:val:test = 153398:27041:4314 = 0.8302869236223498:0.14636298192722175:0.023350094450428408
+		 Number of train examples per class: 	(array([0., 1.]), array([133776,  19622]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23259,  3782]))
+		 Number of test examples per class: 	(array([0.]), array([4314]))
+		 Total time taken: 1076.5707087516785 s
+====================================================================================================
+X_train (152706, 64, 12)
+X_val (26919, 64, 12)
+Y_train (152706, 64, 1)
+Y_val (26919, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5128, 64, 12)
+Y_test (5128, 64, 1)
+test_len (1,)
+	 FOLD 37
+		 train:val:test = 152706:26919:5128 = 0.8265413822779603:0.14570264082315307:0.027755976898886623
+		 Number of train examples per class: 	(array([0., 1.]), array([133753,  18953]))
+		 Number of val examples per class: 	(array([0., 1.]), array([24375,  2544]))
+		 Number of test examples per class: 	(array([0., 1.]), array([3221, 1907]))
+		 Total time taken: 1106.6962921619415 s
+====================================================================================================
+X_train (153292, 64, 12)
+X_val (27023, 64, 12)
+Y_train (153292, 64, 1)
+Y_val (27023, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4438, 64, 12)
+Y_test (4438, 64, 1)
+test_len (1,)
+	 FOLD 38
+		 train:val:test = 153292:27023:4438 = 0.8297131846302902:0.14626555455121162:0.024021260818498213
+		 Number of train examples per class: 	(array([0., 1.]), array([133900,  19392]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23011,  4012]))
+		 Number of test examples per class: 	(array([0.]), array([4438]))
+		 Total time taken: 1135.1451625823975 s
+====================================================================================================
+X_train (153483, 64, 12)
+X_val (27057, 64, 12)
+Y_train (153483, 64, 1)
+Y_val (27057, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (4213, 64, 12)
+Y_test (4213, 64, 1)
+test_len (1,)
+	 FOLD 39
+		 train:val:test = 153483:27057:4213 = 0.8307469973423977:0.14644958403923075:0.022803418618371554
+		 Number of train examples per class: 	(array([0., 1.]), array([133386,  20097]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23750,  3307]))
+		 Number of test examples per class: 	(array([0.]), array([4213]))
+		 Total time taken: 1164.2355134487152 s
+====================================================================================================
+X_train (154022, 64, 12)
+X_val (27152, 64, 12)
+Y_train (154022, 64, 1)
+Y_val (27152, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3579, 64, 12)
+Y_test (3579, 64, 1)
+test_len (1,)
+	 FOLD 40
+		 train:val:test = 154022:27152:3579 = 0.8336644059907011:0.14696378407928423:0.01937180993001467
+		 Number of train examples per class: 	(array([0., 1.]), array([133905,  20117]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23865,  3287]))
+		 Number of test examples per class: 	(array([0.]), array([3579]))
+		 Total time taken: 1194.0745162963867 s
+====================================================================================================
+X_train (152637, 64, 12)
+X_val (26907, 64, 12)
+Y_train (152637, 64, 1)
+Y_val (26907, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5209, 64, 12)
+Y_test (5209, 64, 1)
+test_len (1,)
+	 FOLD 41
+		 train:val:test = 152637:26907:5209 = 0.8261679106699215:0.14563768923914633:0.028194400090932218
+		 Number of train examples per class: 	(array([0., 1.]), array([133220,  19417]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23648,  3259]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4481,  728]))
+		 Total time taken: 1222.7815744876862 s
+====================================================================================================
+X_train (154170, 64, 12)
+X_val (27178, 64, 12)
+Y_train (154170, 64, 1)
+Y_val (27178, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3405, 64, 12)
+Y_test (3405, 64, 1)
+test_len (1,)
+	 FOLD 42
+		 train:val:test = 154170:27178:3405 = 0.8344654755267844:0.14710451251129886:0.018430011961916723
+		 Number of train examples per class: 	(array([0., 1.]), array([135196,  18974]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23905,  3273]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2248, 1157]))
+		 Total time taken: 1251.3017320632935 s
+====================================================================================================
+X_train (154306, 64, 12)
+X_val (27202, 64, 12)
+Y_train (154306, 64, 1)
+Y_val (27202, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (3245, 64, 12)
+Y_test (3245, 64, 1)
+test_len (1,)
+	 FOLD 43
+		 train:val:test = 154306:27202:3245 = 0.8352015934788609:0.1472344156793124:0.017563990841826655
+		 Number of train examples per class: 	(array([0., 1.]), array([134568,  19738]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23981,  3221]))
+		 Number of test examples per class: 	(array([0., 1.]), array([2800,  445]))
+		 Total time taken: 1279.5185821056366 s
+====================================================================================================
+X_train (152701, 64, 12)
+X_val (26919, 64, 12)
+Y_train (152701, 64, 1)
+Y_val (26919, 64, 1)
+train_len (44, 2)
+val_len (44,)
+X_test (5133, 64, 12)
+Y_test (5133, 64, 1)
+test_len (1,)
+	 FOLD 44
+		 train:val:test = 152701:26919:5133 = 0.8265143191179575:0.14570264082315307:0.027783040058889437
+		 Number of train examples per class: 	(array([0., 1.]), array([132797,  19904]))
+		 Number of val examples per class: 	(array([0., 1.]), array([23661,  3258]))
+		 Number of test examples per class: 	(array([0., 1.]), array([4891,  242]))
+		 Total time taken: 1309.6547207832336 s
+====================================================================================================
+
+
+=> ~20 min per one dataset of 45 folds
+Total: 20 min x 6 datasets = about 2 hours

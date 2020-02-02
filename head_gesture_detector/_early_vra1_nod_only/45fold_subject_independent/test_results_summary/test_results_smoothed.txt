@@ -1,0 +1,420 @@
+First test results from 
+45 fold crossval, 
+2 feature types, 
+3 window sizes,
+5 GRU architecture types
+With label-smoothing applied.
+[no data cleaning]
+=====================================
+
+WARNING:tensorflow:From /home/ICT2000/jondras/anaconda3/envs/dvra/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:tensorflow:From /home/ICT2000/jondras/anaconda3/envs/dvra/lib/python3.7/site-packages/keras/backend/tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From /home/ICT2000/jondras/anaconda3/envs/dvra/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+
+/home/ICT2000/jondras/anaconda3/envs/dvra/lib/python3.7/site-packages/sklearn/metrics/classification.py:1437: UserWarning: y_pred contains classes not in y_true
+  warnings.warn('y_pred contains classes not in y_true')
+/home/ICT2000/jondras/anaconda3/envs/dvra/lib/python3.7/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no true samples.
+  'recall', 'true', average, warn_for)
+/home/ICT2000/jondras/anaconda3/envs/dvra/lib/python3.7/site-packages/sklearn/metrics/classification.py:1145: UndefinedMetricWarning: Recall is ill-defined and being set to 0.0 due to no true samples.
+  'recall', 'true', average, warn_for)
+
+45fold_64u_16ws_6f 	 #params: 13697
+	[last] Mean bacc: 		 0.8035 +/- 0.1364
+	[last] Mean f1: 		 0.4415 +/- 0.3141
+	[last] Mean precision: 		 0.5599 +/- 0.3786
+	[last] Mean recall: 		 0.3927 +/- 0.2937
+
+	[majority] Mean bacc: 		 0.7824 +/- 0.1524
+	[majority] Mean f1: 		 0.4075 +/- 0.3116
+	[majority] Mean precision: 		 0.6176 +/- 0.4035
+	[majority] Mean recall: 		 0.3406 +/- 0.2824
+
+		 Total time taken: 93.65223503112793 s
+
+/home/ICT2000/jondras/anaconda3/envs/dvra/lib/python3.7/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: F-score is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+/home/ICT2000/jondras/anaconda3/envs/dvra/lib/python3.7/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples.
+  'precision', 'predicted', average, warn_for)
+
+45fold_64u_16ws_12f 	 #params: 14849
+	[last] Mean bacc: 		 0.7950 +/- 0.1488
+	[last] Mean f1: 		 0.4287 +/- 0.3214
+	[last] Mean precision: 		 0.5497 +/- 0.3913
+	[last] Mean recall: 		 0.3771 +/- 0.3080
+
+	[majority] Mean bacc: 		 0.7806 +/- 0.1599
+	[majority] Mean f1: 		 0.4034 +/- 0.3210
+	[majority] Mean precision: 		 0.5769 +/- 0.4072
+	[majority] Mean recall: 		 0.3395 +/- 0.2992
+
+		 Total time taken: 188.39780974388123 s
+
+45fold_64u_32ws_6f 	 #params: 13697
+	[last] Mean bacc: 		 0.8006 +/- 0.1497
+	[last] Mean f1: 		 0.4318 +/- 0.3248
+	[last] Mean precision: 		 0.5321 +/- 0.3759
+	[last] Mean recall: 		 0.3891 +/- 0.3164
+
+	[majority] Mean bacc: 		 0.7926 +/- 0.1545
+	[majority] Mean f1: 		 0.4231 +/- 0.3271
+	[majority] Mean precision: 		 0.5626 +/- 0.3961
+	[majority] Mean recall: 		 0.3643 +/- 0.3061
+
+		 Total time taken: 290.00797986984253 s
+
+45fold_64u_32ws_12f 	 #params: 14849
+	[last] Mean bacc: 		 0.7859 +/- 0.1597
+	[last] Mean f1: 		 0.4095 +/- 0.3331
+	[last] Mean precision: 		 0.5584 +/- 0.4027
+	[last] Mean recall: 		 0.3577 +/- 0.3144
+
+	[majority] Mean bacc: 		 0.7844 +/- 0.1609
+	[majority] Mean f1: 		 0.4067 +/- 0.3329
+	[majority] Mean precision: 		 0.5557 +/- 0.4145
+	[majority] Mean recall: 		 0.3483 +/- 0.3078
+
+		 Total time taken: 395.4786009788513 s
+
+45fold_64u_64ws_6f 	 #params: 13697
+	[last] Mean bacc: 		 0.7985 +/- 0.1451
+	[last] Mean f1: 		 0.4279 +/- 0.3165
+	[last] Mean precision: 		 0.5342 +/- 0.3837
+	[last] Mean recall: 		 0.3883 +/- 0.3065
+
+	[majority] Mean bacc: 		 0.7986 +/- 0.1473
+	[majority] Mean f1: 		 0.4279 +/- 0.3182
+	[majority] Mean precision: 		 0.5554 +/- 0.3872
+	[majority] Mean recall: 		 0.3812 +/- 0.3041
+
+		 Total time taken: 508.60591101646423 s
+
+45fold_64u_64ws_12f 	 #params: 14849
+	[last] Mean bacc: 		 0.7818 +/- 0.1632
+	[last] Mean f1: 		 0.3953 +/- 0.3317
+	[last] Mean precision: 		 0.5214 +/- 0.3999
+	[last] Mean recall: 		 0.3551 +/- 0.3186
+
+	[majority] Mean bacc: 		 0.7827 +/- 0.1638
+	[majority] Mean f1: 		 0.3995 +/- 0.3334
+	[majority] Mean precision: 		 0.5336 +/- 0.4044
+	[majority] Mean recall: 		 0.3530 +/- 0.3178
+
+		 Total time taken: 627.5399582386017 s
+
+45fold_128u_16ws_6f 	 #params: 51969
+	[last] Mean bacc: 		 0.7895 +/- 0.1512
+	[last] Mean f1: 		 0.4150 +/- 0.3290
+	[last] Mean precision: 		 0.5288 +/- 0.4005
+	[last] Mean recall: 		 0.3658 +/- 0.3054
+
+	[majority] Mean bacc: 		 0.7678 +/- 0.1621
+	[majority] Mean f1: 		 0.3824 +/- 0.3173
+	[majority] Mean precision: 		 0.5554 +/- 0.4231
+	[majority] Mean recall: 		 0.3134 +/- 0.2843
+
+		 Total time taken: 725.4614055156708 s
+
+45fold_128u_16ws_12f 	 #params: 54273
+	[last] Mean bacc: 		 0.7867 +/- 0.1539
+	[last] Mean f1: 		 0.4114 +/- 0.3202
+	[last] Mean precision: 		 0.5391 +/- 0.3994
+	[last] Mean recall: 		 0.3566 +/- 0.3005
+
+	[majority] Mean bacc: 		 0.7740 +/- 0.1613
+	[majority] Mean f1: 		 0.3890 +/- 0.3161
+	[majority] Mean precision: 		 0.5693 +/- 0.4165
+	[majority] Mean recall: 		 0.3240 +/- 0.2893
+
+		 Total time taken: 819.9851312637329 s
+
+45fold_128u_32ws_6f 	 #params: 51969
+	[last] Mean bacc: 		 0.8026 +/- 0.1391
+	[last] Mean f1: 		 0.4371 +/- 0.3187
+	[last] Mean precision: 		 0.5408 +/- 0.3802
+	[last] Mean recall: 		 0.3961 +/- 0.3037
+
+	[majority] Mean bacc: 		 0.7947 +/- 0.1486
+	[majority] Mean f1: 		 0.4265 +/- 0.3219
+	[majority] Mean precision: 		 0.5719 +/- 0.3955
+	[majority] Mean recall: 		 0.3708 +/- 0.3014
+
+		 Total time taken: 917.1804394721985 s
+
+45fold_128u_32ws_12f 	 #params: 54273
+	[last] Mean bacc: 		 0.7852 +/- 0.1546
+	[last] Mean f1: 		 0.4020 +/- 0.3135
+	[last] Mean precision: 		 0.5294 +/- 0.3785
+	[last] Mean recall: 		 0.3597 +/- 0.3059
+
+	[majority] Mean bacc: 		 0.7841 +/- 0.1569
+	[majority] Mean f1: 		 0.4031 +/- 0.3169
+	[majority] Mean precision: 		 0.5651 +/- 0.3999
+	[majority] Mean recall: 		 0.3505 +/- 0.3021
+
+		 Total time taken: 1014.5051381587982 s
+
+45fold_128u_64ws_6f 	 #params: 51969
+	[last] Mean bacc: 		 0.7786 +/- 0.1629
+	[last] Mean f1: 		 0.3907 +/- 0.3329
+	[last] Mean precision: 		 0.4896 +/- 0.4007
+	[last] Mean recall: 		 0.3437 +/- 0.3079
+
+	[majority] Mean bacc: 		 0.7799 +/- 0.1642
+	[majority] Mean f1: 		 0.3942 +/- 0.3347
+	[majority] Mean precision: 		 0.5300 +/- 0.4098
+	[majority] Mean recall: 		 0.3412 +/- 0.3087
+
+		 Total time taken: 1117.764996290207 s
+
+45fold_128u_64ws_12f 	 #params: 54273
+	[last] Mean bacc: 		 0.7872 +/- 0.1532
+	[last] Mean f1: 		 0.4135 +/- 0.3300
+	[last] Mean precision: 		 0.5234 +/- 0.3960
+	[last] Mean recall: 		 0.3677 +/- 0.3130
+
+	[majority] Mean bacc: 		 0.7876 +/- 0.1550
+	[majority] Mean f1: 		 0.4145 +/- 0.3299
+	[majority] Mean precision: 		 0.5542 +/- 0.3978
+	[majority] Mean recall: 		 0.3631 +/- 0.3121
+
+		 Total time taken: 1233.8687043190002 s
+
+45fold_32-32u_16ws_6f 	 #params: 10017
+	[last] Mean bacc: 		 0.7915 +/- 0.1581
+	[last] Mean f1: 		 0.4194 +/- 0.3383
+	[last] Mean precision: 		 0.5228 +/- 0.3967
+	[last] Mean recall: 		 0.3688 +/- 0.3186
+
+	[majority] Mean bacc: 		 0.7772 +/- 0.1628
+	[majority] Mean f1: 		 0.3972 +/- 0.3268
+	[majority] Mean precision: 		 0.5521 +/- 0.4085
+	[majority] Mean recall: 		 0.3322 +/- 0.2990
+
+		 Total time taken: 1396.448923587799 s
+
+45fold_32-32u_16ws_12f 	 #params: 10593
+	[last] Mean bacc: 		 0.7917 +/- 0.1583
+	[last] Mean f1: 		 0.4145 +/- 0.3325
+	[last] Mean precision: 		 0.5259 +/- 0.3955
+	[last] Mean recall: 		 0.3705 +/- 0.3211
+
+	[majority] Mean bacc: 		 0.7785 +/- 0.1667
+	[majority] Mean f1: 		 0.3922 +/- 0.3304
+	[majority] Mean precision: 		 0.5458 +/- 0.4089
+	[majority] Mean recall: 		 0.3365 +/- 0.3119
+
+		 Total time taken: 1560.5693576335907 s
+
+45fold_32-32u_32ws_6f 	 #params: 10017
+	[last] Mean bacc: 		 0.7967 +/- 0.1503
+	[last] Mean f1: 		 0.4314 +/- 0.3306
+	[last] Mean precision: 		 0.5332 +/- 0.3823
+	[last] Mean recall: 		 0.3840 +/- 0.3169
+
+	[majority] Mean bacc: 		 0.7922 +/- 0.1540
+	[majority] Mean f1: 		 0.4273 +/- 0.3310
+	[majority] Mean precision: 		 0.5657 +/- 0.3941
+	[majority] Mean recall: 		 0.3674 +/- 0.3112
+
+		 Total time taken: 1732.9938650131226 s
+
+45fold_32-32u_32ws_12f 	 #params: 10593
+	[last] Mean bacc: 		 0.7852 +/- 0.1616
+	[last] Mean f1: 		 0.4002 +/- 0.3325
+	[last] Mean precision: 		 0.5098 +/- 0.3812
+	[last] Mean recall: 		 0.3592 +/- 0.3207
+
+	[majority] Mean bacc: 		 0.7836 +/- 0.1627
+	[majority] Mean f1: 		 0.4004 +/- 0.3334
+	[majority] Mean precision: 		 0.5420 +/- 0.4018
+	[majority] Mean recall: 		 0.3497 +/- 0.3151
+
+		 Total time taken: 1907.7516646385193 s
+
+45fold_32-32u_64ws_6f 	 #params: 10017
+	[last] Mean bacc: 		 0.7993 +/- 0.1525
+	[last] Mean f1: 		 0.4281 +/- 0.3358
+	[last] Mean precision: 		 0.5279 +/- 0.3926
+	[last] Mean recall: 		 0.3923 +/- 0.3255
+
+	[majority] Mean bacc: 		 0.8004 +/- 0.1528
+	[majority] Mean f1: 		 0.4313 +/- 0.3374
+	[majority] Mean precision: 		 0.5394 +/- 0.3992
+	[majority] Mean recall: 		 0.3892 +/- 0.3233
+
+		 Total time taken: 2086.1395637989044 s
+
+45fold_32-32u_64ws_12f 	 #params: 10593
+	[last] Mean bacc: 		 0.7868 +/- 0.1648
+	[last] Mean f1: 		 0.4058 +/- 0.3413
+	[last] Mean precision: 		 0.5220 +/- 0.4015
+	[last] Mean recall: 		 0.3626 +/- 0.3264
+
+	[majority] Mean bacc: 		 0.7898 +/- 0.1616
+	[majority] Mean f1: 		 0.4144 +/- 0.3378
+	[majority] Mean precision: 		 0.5421 +/- 0.4011
+	[majority] Mean recall: 		 0.3650 +/- 0.3214
+
+		 Total time taken: 2266.6614027023315 s
+
+45fold_64-64u_16ws_6f 	 #params: 38465
+	[last] Mean bacc: 		 0.7998 +/- 0.1503
+	[last] Mean f1: 		 0.4394 +/- 0.3300
+	[last] Mean precision: 		 0.5580 +/- 0.3852
+	[last] Mean recall: 		 0.3854 +/- 0.3145
+
+	[majority] Mean bacc: 		 0.7843 +/- 0.1539
+	[majority] Mean f1: 		 0.4150 +/- 0.3142
+	[majority] Mean precision: 		 0.5920 +/- 0.4030
+	[majority] Mean recall: 		 0.3464 +/- 0.2903
+
+		 Total time taken: 2436.426069498062 s
+
+45fold_64-64u_16ws_12f 	 #params: 39617
+	[last] Mean bacc: 		 0.7946 +/- 0.1513
+	[last] Mean f1: 		 0.4274 +/- 0.3248
+	[last] Mean precision: 		 0.5452 +/- 0.3868
+	[last] Mean recall: 		 0.3749 +/- 0.3106
+
+	[majority] Mean bacc: 		 0.7835 +/- 0.1576
+	[majority] Mean f1: 		 0.4078 +/- 0.3198
+	[majority] Mean precision: 		 0.5812 +/- 0.4042
+	[majority] Mean recall: 		 0.3450 +/- 0.2993
+
+		 Total time taken: 2613.136741876602 s
+
+45fold_64-64u_32ws_6f 	 #params: 38465
+	[last] Mean bacc: 		 0.8038 +/- 0.1415
+	[last] Mean f1: 		 0.4375 +/- 0.3213
+	[last] Mean precision: 		 0.5509 +/- 0.3712
+	[last] Mean recall: 		 0.3954 +/- 0.3073
+
+	[majority] Mean bacc: 		 0.8003 +/- 0.1466
+	[majority] Mean f1: 		 0.4376 +/- 0.3271
+	[majority] Mean precision: 		 0.5909 +/- 0.3948
+	[majority] Mean recall: 		 0.3810 +/- 0.3046
+
+		 Total time taken: 2785.8511850833893 s
+
+45fold_64-64u_32ws_12f 	 #params: 39617
+	[last] Mean bacc: 		 0.7851 +/- 0.1581
+	[last] Mean f1: 		 0.4097 +/- 0.3305
+	[last] Mean precision: 		 0.5585 +/- 0.3977
+	[last] Mean recall: 		 0.3538 +/- 0.3068
+
+	[majority] Mean bacc: 		 0.7815 +/- 0.1597
+	[majority] Mean f1: 		 0.4055 +/- 0.3275
+	[majority] Mean precision: 		 0.5717 +/- 0.4090
+	[majority] Mean recall: 		 0.3410 +/- 0.2982
+
+		 Total time taken: 2960.9988911151886 s
+
+45fold_64-64u_64ws_6f 	 #params: 38465
+	[last] Mean bacc: 		 0.7826 +/- 0.1638
+	[last] Mean f1: 		 0.3987 +/- 0.3424
+	[last] Mean precision: 		 0.5193 +/- 0.4006
+	[last] Mean recall: 		 0.3515 +/- 0.3147
+
+	[majority] Mean bacc: 		 0.7855 +/- 0.1629
+	[majority] Mean f1: 		 0.4064 +/- 0.3431
+	[majority] Mean precision: 		 0.5331 +/- 0.4095
+	[majority] Mean recall: 		 0.3535 +/- 0.3148
+
+		 Total time taken: 3142.093982934952 s
+
+45fold_64-64u_64ws_12f 	 #params: 39617
+	[last] Mean bacc: 		 0.7842 +/- 0.1710
+	[last] Mean f1: 		 0.3916 +/- 0.3426
+	[last] Mean precision: 		 0.5085 +/- 0.3923
+	[last] Mean recall: 		 0.3554 +/- 0.3352
+
+	[majority] Mean bacc: 		 0.7844 +/- 0.1714
+	[majority] Mean f1: 		 0.3937 +/- 0.3438
+	[majority] Mean precision: 		 0.5200 +/- 0.3994
+	[majority] Mean recall: 		 0.3526 +/- 0.3335
+
+		 Total time taken: 3323.6192548274994 s
+
+45fold_128-128u_16ws_6f 	 #params: 150657
+	[last] Mean bacc: 		 0.7998 +/- 0.1547
+	[last] Mean f1: 		 0.4339 +/- 0.3391
+	[last] Mean precision: 		 0.5375 +/- 0.3955
+	[last] Mean recall: 		 0.3838 +/- 0.3219
+
+	[majority] Mean bacc: 		 0.7812 +/- 0.1598
+	[majority] Mean f1: 		 0.4051 +/- 0.3247
+	[majority] Mean precision: 		 0.5671 +/- 0.4122
+	[majority] Mean recall: 		 0.3383 +/- 0.2962
+
+		 Total time taken: 3492.6568698883057 s
+
+45fold_128-128u_16ws_12f 	 #params: 152961
+	[last] Mean bacc: 		 0.7818 +/- 0.1630
+	[last] Mean f1: 		 0.4013 +/- 0.3285
+	[last] Mean precision: 		 0.5420 +/- 0.4026
+	[last] Mean recall: 		 0.3457 +/- 0.3102
+
+	[majority] Mean bacc: 		 0.7755 +/- 0.1625
+	[majority] Mean f1: 		 0.3815 +/- 0.3225
+	[majority] Mean precision: 		 0.5442 +/- 0.4088
+	[majority] Mean recall: 		 0.3276 +/- 0.2942
+
+		 Total time taken: 3661.4167580604553 s
+
+45fold_128-128u_32ws_6f 	 #params: 150657
+	[last] Mean bacc: 		 0.7989 +/- 0.1481
+	[last] Mean f1: 		 0.4205 +/- 0.3204
+	[last] Mean precision: 		 0.5453 +/- 0.3899
+	[last] Mean recall: 		 0.3863 +/- 0.3138
+
+	[majority] Mean bacc: 		 0.7958 +/- 0.1486
+	[majority] Mean f1: 		 0.4180 +/- 0.3212
+	[majority] Mean precision: 		 0.5698 +/- 0.4026
+	[majority] Mean recall: 		 0.3726 +/- 0.3028
+
+		 Total time taken: 3836.287207365036 s
+
+45fold_128-128u_32ws_12f 	 #params: 152961
+	[last] Mean bacc: 		 0.7969 +/- 0.1520
+	[last] Mean f1: 		 0.4254 +/- 0.3241
+	[last] Mean precision: 		 0.5593 +/- 0.3825
+	[last] Mean recall: 		 0.3793 +/- 0.3155
+
+	[majority] Mean bacc: 		 0.7904 +/- 0.1587
+	[majority] Mean f1: 		 0.4145 +/- 0.3283
+	[majority] Mean precision: 		 0.5746 +/- 0.4020
+	[majority] Mean recall: 		 0.3601 +/- 0.3137
+
+		 Total time taken: 4018.80886054039 s
+
+45fold_128-128u_64ws_6f 	 #params: 150657
+	[last] Mean bacc: 		 0.7932 +/- 0.1546
+	[last] Mean f1: 		 0.4021 +/- 0.3327
+	[last] Mean precision: 		 0.5334 +/- 0.4017
+	[last] Mean recall: 		 0.3749 +/- 0.3164
+
+	[majority] Mean bacc: 		 0.7947 +/- 0.1543
+	[majority] Mean f1: 		 0.4088 +/- 0.3350
+	[majority] Mean precision: 		 0.5511 +/- 0.4127
+	[majority] Mean recall: 		 0.3735 +/- 0.3143
+
+		 Total time taken: 4206.753963708878 s
+
+45fold_128-128u_64ws_12f 	 #params: 152961
+	[last] Mean bacc: 		 0.7913 +/- 0.1548
+	[last] Mean f1: 		 0.4118 +/- 0.3307
+	[last] Mean precision: 		 0.5276 +/- 0.3891
+	[last] Mean recall: 		 0.3699 +/- 0.3100
+
+	[majority] Mean bacc: 		 0.7927 +/- 0.1537
+	[majority] Mean f1: 		 0.4179 +/- 0.3312
+	[majority] Mean precision: 		 0.5397 +/- 0.3932
+	[majority] Mean recall: 		 0.3695 +/- 0.3076
+
+		 Total time taken: 4395.41800403595 s
