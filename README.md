@@ -7,6 +7,9 @@
 ------------
 
 
+The aim of this project was to develop a deep learning model to generate a virtual agent listener’s real-time rapport behavior, given a human speaker’s audio-visual input. Using a multimodal dataset of dyadic interactions, I trained several machine learning models to predict a virtual agent’s head gestures, smile, gaze, voice activity, and turn-taking. To annotate the training data with head gestures (nod, shake, and tilt), I used the previously developed [Head Gesture Detector](https://github.com/jancio/Deep-Virtual-Rapport-Agent/tree/master/head_gesture_detector). This project also involved voice activity detection to determine time intervals when a human speaker is speaking and thus filter out irrelevant data. For this sub-task, I experimented with various toolkits such as OpenSMILE, IBM Watson STT, Google ASR STT, and WebRTC VAD.
+
+
 Overview of the files in this folder:
 	
 	./data_analysis
