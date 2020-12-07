@@ -7,6 +7,12 @@
 ------------
 
 
+In this project, I developed real-time head nod, head shake, and head tilt detectors. The detectors input head rotation angles (pitch, yaw, and roll) extracted from videos using OpenFace and output binary predictions of nod, shake, and tilt head gestures on a frame-by-frame basis. The frame-by-frame predictions are made individually (binary value for each of the three head gestures) as well as using a fusion (no more than one kind of head gesture predicted for a given frame). I performed lots of experiments comparing various feature sets and window sizes, subject-dependent and subject-independent models, as well as carrying out a cross-dataset evaluation.
+
+- Report [[PDF]](https://github.com/jancio/Deep-Virtual-Rapport-Agent/blob/master/head_gesture_detector/HeadGestureDetector_Report.pdf)
+- Later deployed in *OpenSense* platform, ACM ICMI 2020, Paper [[PDF]](https://dl.acm.org/doi/abs/10.1145/3382507.3418832)
+
+------------
 Overview of the files in this folder:
 
 	./_early_vra1_nod_only
